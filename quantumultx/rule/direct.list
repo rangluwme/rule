@@ -6422,8 +6422,6 @@ HOST,mask-t.apple-dns.net
 HOST,mask.apple-dns.net
 HOST,mask.icloud.com
 HOST-SUFFIX,aaplimg.com
-HOST-SUFFIX,akadns.net
-HOST-SUFFIX-mapkit.com
 HOST-SUFFIX,appstore.com
 HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,gsp4-cn.ls.apple.com.edgekey.net
@@ -6434,16 +6432,8 @@ HOST-SUFFIX,mzstatic.com
 HOST-SUFFIX,safebrowsing.apple
 HOST-SUFFIX,store.apple.com.edgekey.net
 HOST-SUFFIX,www.apple.com.edgekey.net
-HOST-SUFFIXmusic.com
-HOST-SUFFIX.news
-HOST-SUFFIX-dns.net
 HOST-SUFFIX,appsto.re
 HOST-SUFFIX,digicert.com
-HOST-SUFFIX-cloudkit.com
-HOST-SUFFIX-icloud.cn
-HOST-SUFFIX-livephotoskit.com
-HOST-SUFFIXicloud.cn
-HOST-SUFFIXmx-icloud.com
 HOST-SUFFIX,apzones.com
 HOST-SUFFIX,cdn-apple.com
 HOST-SUFFIX,icloud-apple.cn
