@@ -1,61 +1,60 @@
-HOST-SUFFIX, me
-HOST-SUFFIX, icu
-HOST-SUFFIX, in
-HOST-SUFFIX, io
-HOST-SUFFIX, top
-HOST-SUFFIX, cloud
-HOST-SUFFIX, xyz
-HOST-SUFFIX, edu
-HOST-SUFFIX, sg
-HOST-SUFFIX, uk
-HOST-SUFFIX, tw
-HOST-SUFFIX, ch
-HOST-SUFFIX, hk
-HOST-SUFFIX, jp
-HOST-SUFFIX, kr
-HOST-SUFFIX, ru
-HOST-SUFFIX, de
-HOST-SUFFIX, fr
-HOST-SUFFIX, nl
-HOST-SUFFIX, us
-HOST-SUFFIX, au
-HOST-SUFFIX, ca
-HOST-SUFFIX, dk
-
+HOST-SUFFIX,me
+HOST-SUFFIX,icu
+HOST-SUFFIX,in
+HOST-SUFFIX,io
+HOST-SUFFIX,top
+HOST-SUFFIX,cloud
+HOST-SUFFIX,xyz
+HOST-SUFFIX,edu
+HOST-SUFFIX,sg
+HOST-SUFFIX,uk
+HOST-SUFFIX,tw
+HOST-SUFFIX,ch
+HOST-SUFFIX,hk
+HOST-SUFFIX,jp
+HOST-SUFFIX,kr
+HOST-SUFFIX,ru
+HOST-SUFFIX,de
+HOST-SUFFIX,fr
+HOST-SUFFIX,nl
+HOST-SUFFIX,us
+HOST-SUFFIX,au
+HOST-SUFFIX,ca
+HOST-SUFFIX,dk
 
 
 geoip, tw
 geoip, hk
-host-keyword, github
+HOST-KEYWORD,github
 geoip, uk
 geoip, us
-HOST-KEYWORD, amazon
-HOST-KEYWORD, awsstatic
-HOST-KEYWORD, cloudfront
-HOST-KEYWORD, amazonaws
-HOST-SUFFIX, deepl.com
-HOST-KEYWORD, immetel 
-HOST-KEYWORD, mendeley 
-HOST-KEYWORD, mayiyun 
-HOST-SUFFIX, jsdelivr.net
-HOST-SUFFIX, fastgit.org
-HOST-SUFFIX, mtt.org
-HOST-SUFFIX, receiveasms.com
-HOST-KEYWORD, clarivate
-HOST-SUFFIX, arxiv.org
-HOST-SUFFIX, agu.org
-HOST-SUFFIX, copernicus.org
-HOST-KEYWORD, mlsao
-HOST-SUFFIX, chinadigitaltimes.net
-HOST-SUFFIX, rfa.org
-HOST-SUFFIX, figshare.com
-HOST-SUFFIX, nationalreview.com
-HOST-SUFFIX, duyaoss.com
-HOST-SUFFIX, cambridge.org
-HOST-KEYWORD, youtube
-HOST-SUFFIX, telegram.org
-HOST-SUFFIX, cloud.faster.buzz
-HOST-KEYWORD, pornhub
+HOST-KEYWORD,amazon
+HOST-KEYWORD,awsstatic
+HOST-KEYWORD,cloudfront
+HOST-KEYWORD,amazonaws
+HOST-SUFFIX,deepl.com
+HOST-KEYWORD,immetel 
+HOST-KEYWORD,mendeley 
+HOST-KEYWORD,mayiyun 
+HOST-SUFFIX,jsdelivr.net
+HOST-SUFFIX,fastgit.org
+HOST-SUFFIX,mtt.org
+HOST-SUFFIX,receiveasms.com
+HOST-KEYWORD,clarivate
+HOST-SUFFIX,arxiv.org
+HOST-SUFFIX,agu.org
+HOST-SUFFIX,copernicus.org
+HOST-KEYWORD,mlsao
+HOST-SUFFIX,chinadigitaltimes.net
+HOST-SUFFIX,rfa.org
+HOST-SUFFIX,figshare.com
+HOST-SUFFIX,nationalreview.com
+HOST-SUFFIX,duyaoss.com
+HOST-SUFFIX,cambridge.org
+HOST-KEYWORD,youtube
+HOST-SUFFIX,telegram.org
+HOST-SUFFIX,cloud.faster.buzz
+HOST-KEYWORD,pornhub
 
 HOST-SUFFIX,gateway.icloud.com
 HOST-SUFFIX,news-edge.apple.com
