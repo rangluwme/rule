@@ -439,8 +439,6 @@ DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX.me
-DOMAIN-SUFFIX.org
 DOMAIN-SUFFIX,telesco.pe
 # > The Economist
 DOMAIN-SUFFIX,economist.com
@@ -520,8 +518,6 @@ DOMAIN,yt3.ggpht.com
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX.me
-DOMAIN-SUFFIX.org
 DOMAIN-SUFFIX,telesco.pe
 
 
@@ -1585,8 +1581,6 @@ DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX.me
-DOMAIN-SUFFIX.org
 DOMAIN-SUFFIX,telesco.pe
 
 # > The Economist
@@ -1679,7 +1673,6 @@ DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX.me
 DOMAIN-SUFFIX.org
 DOMAIN-SUFFIX,telesco.pe
 
