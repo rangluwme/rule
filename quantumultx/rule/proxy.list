@@ -1,4 +1,6 @@
-HOST-SUFFIX,me
+
+
+ HOST-SUFFIX,me
 HOST-SUFFIX,icu
 HOST-SUFFIX,in
 HOST-SUFFIX,io
@@ -45,11 +47,8 @@ DOMAIN-SUFFIX,gov
 DOMAIN-SUFFIX,archive.org 
 DOMAIN-SUFFIX,icu 
 DOMAIN-SUFFIX,jsdelivr.com 
-geoip, tw
-geoip, hk
+
 HOST-KEYWORD,github
-geoip, uk
-geoip, us
 HOST-KEYWORD,amazon
 HOST-KEYWORD,awsstatic
 HOST-KEYWORD,cloudfront
@@ -82,12 +81,12 @@ HOST-SUFFIX,news-edge.apple.com
 HOST-SUFFIX,news-events.apple.com
 HOST-SUFFIX,apple.comscoreresearch.com
 HOST-SUFFIX,news-assets.apple.com
-#Cloudflare 减速器
-DOMAIN,ajax.cloudflare.com
+
+DOMAIN,cloudflare.com
 DOMAIN,static.cloudflareinsights.com
-# Google Analytics
+
 DOMAIN,analyticsmobile-pa.googleapis.com
-# (D.C.S.G?)
+
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
 DOMAIN-SUFFIX,abc.com
