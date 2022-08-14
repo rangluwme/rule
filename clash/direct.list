@@ -12,12 +12,12 @@ GEOIP,CN,no-resolve
 
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,onedrive
-DOMAIN-KEYWORD,sciencedirect
 DOMAIN-KEYWORD,skydrive
-DOMAIN-KEYWORD,webofscience
 DOMAIN-KEYWORD,asce
-DOMAIN-KEYWORD,elsevier
+DOMAIN-KEYWORD,crossref
 DOMAIN-KEYWORD,guanghuiwang
+
+DOMAIN-SUFFIX,pnas.org
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,a-msedge.net
 DOMAIN-SUFFIX,a1158.g.akamai.net
