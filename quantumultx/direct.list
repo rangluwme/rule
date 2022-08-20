@@ -1,6 +1,9 @@
 
 
 
+
+
+# China Area Network
 # HOST-KEYWORD,fool
 # HOST-SUFFIX,123.com
 # HOST,123.cn
@@ -8,20 +11,18 @@
 # IP-CIDR,223.5.5.5/32（包括域名）
 # IP-CIDR6,2620:149:a44::/48
 # Just for Quantumult X, move GEOIP,CN to the bottom (local filter at the top by default)
-
-GEOIP,CN,no-resolve
 HOST-KEYWORD,1drv
+HOST-KEYWORD,asce
+HOST-KEYWORD,crossref
+HOST-KEYWORD,guanghuiwang
 HOST-KEYWORD,onedrive
-HOST-KEYWORD,sciencedirect
 HOST-KEYWORD,skydrive
-HOST-KEYWORD,webofscience
 HOST-SUFFIX,1drv.com
 HOST-SUFFIX,a-msedge.net
 HOST-SUFFIX,a1158.g.akamai.net
 HOST-SUFFIX,a122.dscg3.akamai.net
 HOST-SUFFIX,a767.dscg3.akamai.net
 HOST-SUFFIX,aadrm.com
-HOST-SUFFIX,aaplimg.com
 HOST-SUFFIX,aaplimg.com
 HOST-SUFFIX,acg.rip
 HOST-SUFFIX,acm.org
@@ -43,8 +44,6 @@ HOST-SUFFIX,apple-mapkit.com
 HOST-SUFFIX,apple.music.com
 HOST-SUFFIX,appsto.re
 HOST-SUFFIX,appstore.com
-HOST-SUFFIX,appstore.com
-HOST-SUFFIX,apzones.com
 HOST-SUFFIX,apzones.com
 HOST-SUFFIX,aria.ms
 HOST-SUFFIX,asp.net
@@ -118,7 +117,6 @@ HOST-SUFFIX,broadcasthe.net
 HOST-SUFFIX,c-msedge.net
 HOST-SUFFIX,callersbane.com
 HOST-SUFFIX,cas.org
-HOST-SUFFIX,cdn-apple.com
 HOST-SUFFIX,cdn-apple.com
 HOST-SUFFIX,centralvalidation.com
 HOST-SUFFIX,ch9.ms
@@ -209,13 +207,10 @@ HOST-SUFFIX,hummingbird.ms
 HOST-SUFFIX,icetorrent.org
 HOST-SUFFIX,icloud-apple.cn
 HOST-SUFFIX,icloud-content.com
-HOST-SUFFIX,icloud-content.com
 HOST-SUFFIX,icloud-isupport.com
 HOST-SUFFIX,icloud-sandbox.com
 HOST-SUFFIX,icloud.ch
 HOST-SUFFIX,icloud.com
-HOST-SUFFIX,icloud.com
-HOST-SUFFIX,icloud.com.cn
 HOST-SUFFIX,icloud.com.cn
 HOST-SUFFIX,icloud.de
 HOST-SUFFIX,icloud.ee
@@ -268,7 +263,7 @@ HOST-SUFFIX,intunewiki.com
 HOST-SUFFIX,iop.org
 HOST-SUFFIX,ios-icloud.com
 HOST-SUFFIX,iotinactionevents.com
-HOST-SUFFIX,ip6-localhost
+HOST-SUFFIX,ip6-localDOMAIN
 HOST-SUFFIX,ip6-loopback
 HOST-SUFFIX,itunes.com
 HOST-SUFFIX,itunes.com.edgekey.net
@@ -288,7 +283,7 @@ HOST-SUFFIX,livefilestore.com
 HOST-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net
 HOST-SUFFIX,livingyourambition.com
 HOST-SUFFIX,local
-HOST-SUFFIX,localhost
+HOST-SUFFIX,localDOMAIN
 HOST-SUFFIX,localytics.com
 HOST-SUFFIX,lync.com
 HOST-SUFFIX,m-team.cc
@@ -299,7 +294,6 @@ HOST-SUFFIX,managedmeetingrooms.com
 HOST-SUFFIX,mapblast.com
 HOST-SUFFIX,mappoint.com
 HOST-SUFFIX,masalladeloslimites.com
-HOST-SUFFIX,me.com
 HOST-SUFFIX,me.com
 HOST-SUFFIX,meetfasttrack.com
 HOST-SUFFIX,meetyourdevices.com
@@ -367,7 +361,6 @@ HOST-SUFFIX,myicloud.net
 HOST-SUFFIX,mylcloud.net
 HOST-SUFFIX,mymicrosoft.com
 HOST-SUFFIX,mzstatic.com
-HOST-SUFFIX,mzstatic.com
 HOST-SUFFIX,nanyangpt.com
 HOST-SUFFIX,nature.com
 HOST-SUFFIX,ncore.cc
@@ -420,6 +413,7 @@ HOST-SUFFIX,pixapp.net
 HOST-SUFFIX,pkulaw.com
 HOST-SUFFIX,playfabapi.cn
 HOST-SUFFIX,playfabcn.com
+HOST-SUFFIX,pnas.org
 HOST-SUFFIX,pnas.org
 HOST-SUFFIX,pool.ntp.org
 HOST-SUFFIX,poshtestgallery.com
@@ -530,7 +524,6 @@ HOST-SUFFIX,windowsphone-int.com
 HOST-SUFFIX,windowsphone.com
 HOST-SUFFIX,windowssearch.com
 HOST-SUFFIX,windowsupdate.com
-HOST-SUFFIX,windowsupdate.com
 HOST-SUFFIX,windowsupdate.microsoft.com
 HOST-SUFFIX,winmp.cn
 HOST-SUFFIX,wlxrs.com
@@ -635,4 +628,4 @@ HOST,updates-http.cdn-apple.com
 HOST,uts-api.itunes.apple.com
 HOST,wustat.windows.com
 HOST,www-cdn.icloud.com.akadns.net
-HOST.comscoreresearch.com
+GEOIP,CN,no-resolve

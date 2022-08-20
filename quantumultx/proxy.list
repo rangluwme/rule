@@ -1,5 +1,4 @@
 
-# 国外域名
 HOST-KEYWORD,amazon
 HOST-KEYWORD,amazonaws
 HOST-KEYWORD,appspot
@@ -14,7 +13,7 @@ HOST-KEYWORD,google
 HOST-KEYWORD,gstatic
 HOST-KEYWORD,immetel 
 HOST-KEYWORD,mayiyun 
-HOST-KEYWORD,mendeley 
+HOST-KEYWORD,mendeley
 HOST-KEYWORD,mlsao
 HOST-KEYWORD,pinterest
 HOST-KEYWORD,pornhub
@@ -88,7 +87,7 @@ HOST-SUFFIX,avg.com
 HOST-SUFFIX,axios.com
 HOST-SUFFIX,bandcamp.com
 HOST-SUFFIX,bandpage.com
-HOST-SUFFIX,bandwagonhost.com
+HOST-SUFFIX,bandwagonDOMAIN.com
 HOST-SUFFIX,baselinestudy.com
 HOST-SUFFIX,baselinestudy.org
 HOST-SUFFIX,bazel.build
@@ -212,6 +211,7 @@ HOST-SUFFIX,cambridge.org
 HOST-SUFFIX,campuslondon.com
 HOST-SUFFIX,capitalg.com
 HOST-SUFFIX,castbox.fm
+HOST-SUFFIX,cc
 HOST-SUFFIX,cdninstagram.com
 HOST-SUFFIX,cdninstagram.com,Instagram
 HOST-SUFFIX,certificate-transparency.dev
@@ -310,6 +310,7 @@ HOST-SUFFIX,duyaoss.com
 HOST-SUFFIX,earthcam.com
 HOST-SUFFIX,economist.com
 HOST-SUFFIX,edu
+HOST-SUFFIX,edu 
 HOST-SUFFIX,edx-cdn.org
 HOST-SUFFIX,encyclopedia.com
 HOST-SUFFIX,engadget.com
@@ -399,9 +400,6 @@ HOST-SUFFIX,golang.com
 HOST-SUFFIX,golang.net
 HOST-SUFFIX,golang.org
 HOST-SUFFIX,gonglchuangl.net
-HOST-SUFFIX,googel.com
-HOST-SUFFIX,googil.com
-HOST-SUFFIX,googl.com
 HOST-SUFFIX,google-analytics-cn.com
 HOST-SUFFIX,google-analytics.com
 HOST-SUFFIX,google-syndication.com
@@ -620,12 +618,12 @@ HOST-SUFFIX,googlecode.com
 HOST-SUFFIX,googlecommerce.com
 HOST-SUFFIX,googlecompare.co.uk
 HOST-SUFFIX,googledanmark.com
+HOST-SUFFIX,googledomains.com
 HOST-SUFFIX,googlee.com
 HOST-SUFFIX,googleearth.com
 HOST-SUFFIX,googlefiber.net
 HOST-SUFFIX,googlefinland.com
 HOST-SUFFIX,googleflights-cn.net
-HOST-SUFFIX,googleHOSTs.com
 HOST-SUFFIX,googlemail.com
 HOST-SUFFIX,googlemaps.com
 HOST-SUFFIX,googlemashups.com
@@ -689,7 +687,6 @@ HOST-SUFFIX,i-cable.com
 HOST-SUFFIX,iam.soy
 HOST-SUFFIX,iamremarkable.org
 HOST-SUFFIX,icu
-HOST-SUFFIX,icu 
 HOST-SUFFIX,ifixit.com
 HOST-SUFFIX,igoogle.com
 HOST-SUFFIX,imgur.com
@@ -1071,8 +1068,6 @@ HOST-SUFFIX,zophar.net
 HOST-SUFFIX,zukunftswerkstatt.de
 HOST-SUFFIX,zynamics.com
 HOST-SUFFIX,zyxel.com
-HOST-SUFFIXdrive.com
-HOST-SUFFIXusercontent.com
 HOST,a248.e.akamai.net
 HOST,a771.dscq.akamai.net
 HOST,addons.mozilla.org
@@ -1127,8 +1122,3 @@ HOST,voice.telephony.goog
 HOST,wego.here.com
 HOST,www.googleapis.com
 HOST,yt3.ggpht.com
-USER-AGENT,*com.google.Drive*
-USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT.Drive*
-USER-AGENT*
