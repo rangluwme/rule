@@ -6,21 +6,8 @@ GEOIP,SG,no-resolve
 GEOIP,KR,no-resolve
 GEOIP,JP,no-resolve
 
-
-DOMAIN-KEYWORD,amazon
-DOMAIN-KEYWORD,awsstatic
-DOMAIN-KEYWORD,clarivate
 DOMAIN-KEYWORD,cloudfront
-DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,gstatic
-DOMAIN-KEYWORD,mendeley 
-DOMAIN-KEYWORD,mlsao
-DOMAIN-KEYWORD,pornhub
-DOMAIN-KEYWORD,recaptcha
-DOMAIN-KEYWORD,youtube
-
 
 DOMAIN-SUFFIX,au
 DOMAIN-SUFFIX,cc
