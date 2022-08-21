@@ -3,9 +3,7 @@
 # DOMAIN-KEYWORD,fool
 # DOMAIN-SUFFIX,123.com
 # DOMAIN,123.cn
-# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
-# IP-CIDR,223.5.5.5/32（包括域名）
-# IP-CIDR6,2620:149:a44::/48
+
 # Just for Quantumult X, move GEOIP,CN to the bottom (local filter at the top by default)
 
 GEOIP,CN,no-resolve
@@ -16,6 +14,15 @@ DOMAIN-KEYWORD,skydrive
 DOMAIN-KEYWORD,asce
 DOMAIN-KEYWORD,crossref
 DOMAIN-KEYWORD,guanghuiwang
+DOMAIN-KEYWORD,sciencedirect
+DOMAIN-KEYWORD,clarivate
+DOMAIN-KEYWORD,webofknowledge
+DOMAIN-KEYWORD,webofscience
+DOMAIN-KEYWORD,elsevier
+DOMAIN-KEYWORD,wiley
+DOMAIN-KEYWORD,springer
+
+
 
 DOMAIN-SUFFIX,pnas.org
 DOMAIN-SUFFIX,1drv.com
@@ -442,7 +449,7 @@ DOMAIN-SUFFIX,s-msft.com
 DOMAIN-SUFFIX,s-msn.com
 DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN-SUFFIX,sankie.net
-DOMAIN-SUFFIX,sciencedirect.com
+
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,sclive.net
 DOMAIN-SUFFIX,serialssolutions.com
@@ -508,7 +515,6 @@ DOMAIN-SUFFIX,vsassets.io
 DOMAIN-SUFFIX,wanfangdata.com.cn
 DOMAIN-SUFFIX,wbd.ms
 DOMAIN-SUFFIX,webofknowledge.com
-DOMAIN-SUFFIX,webofscience.com
 DOMAIN-SUFFIX,what-fan.net
 DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,windows-int.net
