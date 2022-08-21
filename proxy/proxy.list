@@ -8,6 +8,7 @@ GEOIP,JP,no-resolve
 
 DOMAIN-KEYWORD,cloudfront
 DOMAIN-KEYWORD,gstatic
+DOMAIN-SUFFIX,gstatic.com
 
 
 DOMAIN-SUFFIX,au
