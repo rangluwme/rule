@@ -1,3 +1,11 @@
+GEOIP,US,no-resolve
+GEOIP,UK,no-resolve
+GEOIP,HK,no-resolve
+GEOIP,TW,no-resolve
+GEOIP,SG,no-resolve
+GEOIP,KR,no-resolve
+GEOIP,JP,no-resolve
+
 
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,amazonaws
