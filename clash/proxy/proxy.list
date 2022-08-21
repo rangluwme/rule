@@ -1150,3 +1150,6 @@ DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtubeeducation.com
 DOMAIN-SUFFIX,youtubegaming.com
 DOMAIN-SUFFIX,youtubekids.com
+
+#Github Desktop
+IP-CIDR,20.205.243.166/32
