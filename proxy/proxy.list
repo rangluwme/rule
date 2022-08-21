@@ -7,6 +7,7 @@ GEOIP,KR,no-resolve
 GEOIP,JP,no-resolve
 
 DOMAIN-KEYWORD,cloudfront
+DOMAIN-KEYWORD,gstatic
 
 
 DOMAIN-SUFFIX,au
