@@ -20,9 +20,6 @@ DOMAIN-KEYWORD,springernature
 DOMAIN-SUFFIX,pnas.org
 DOMAIN-SUFFIX,science.org
 DOMAIN-SUFFIX,nature.com
-DOMAIN-SUFFIX,acm.org
-DOMAIN-SUFFIX,acs.org
-DOMAIN-SUFFIX,cas.org
 DOMAIN-SUFFIX,doi.org
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,wiley.com
@@ -30,20 +27,10 @@ DOMAIN-SUFFIX,zotero.org
 
 # Public Direct CDN 公共直连
 DOMAIN-KEYWORD,alicdn
-DOMAIN-KEYWORD,alimama
-DOMAIN-SUFFIX,ajax.aspnetcdn.com
 DOMAIN-SUFFIX,ajax.cloudflare.com
 DOMAIN-SUFFIX,cdnjs.cloudflare.com
-DOMAIN-SUFFIX,code.jquery.com
-DOMAIN-SUFFIX,baomitu.com
 DOMAIN-SUFFIX,bootcss.com
-DOMAIN-SUFFIX,jiasule.com
 DOMAIN-SUFFIX,staticfile.org
-DOMAIN-SUFFIX,upaiyun.com
-DOMAIN-SUFFIX,xn--fiqs8s
-DOMAIN-SUFFIX,xn--55qx5d
-DOMAIN-SUFFIX,xn--io0a7i
-
 
 # Microsoft Services
 DOMAIN-KEYWORD,microsoft
