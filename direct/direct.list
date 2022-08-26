@@ -1,6 +1,7 @@
 
 # China Area Network
 GEOIP,CN
+GEOIP,LAN
 DOMAIN-SUFFIX,cn
 DOMAIN-KEYWORD,-cn
 
