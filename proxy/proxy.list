@@ -8,6 +8,8 @@ GEOIP,SG,no-resolve
 DOMAIN-KEYWORD,cloudfront
 DOMAIN-KEYWORD,gstatic
 DOMAIN-KEYWORD,google
+DOMAIN-SUFFIX,ggpht.cn
+DOMAIN-SUFFIX,ggpht.com
 
 # OneDrive
 PROCESS-NAME,OneDrive

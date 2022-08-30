@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,zotero.org
 # Public Direct CDN 公共直连
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,cloudflare
+DOMAIN-KEYWORD,jsdelivr
 DOMAIN-SUFFIX,bootcss.com
 DOMAIN-SUFFIX,staticfile.org
 
