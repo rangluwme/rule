@@ -4,13 +4,14 @@ GEOIP,HK,no-resolve
 GEOIP,TW,no-resolve
 GEOIP,SG,no-resolve
 
+
+#Youtube
 USER-AGENT,*youtube*
 USER-AGENT,YouTube*
 USER-AGENT,com.google.ios.youtube*
 DOMAIN-KEYWORD,cloudfront
 DOMAIN-KEYWORD,gstatic
 DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
@@ -36,6 +37,8 @@ DOMAIN-SUFFIX,storage.live.com
 
 #Telegram
 DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,t.me
 IP-CIDR,91.105.192.0/23
 IP-CIDR,91.108.4.0/22
 IP-CIDR,91.108.8.0/21
@@ -53,3 +56,7 @@ IP6-CIDR,2001:b28:f23d::/48
 IP6-CIDR,2620:120:e000::/40
 IP6-CIDR,2a0a:f280::/32
 IP6-CIDR,fe80::/10
+
+#Github
+IP-CIDR,20.205.243.166/32
+DOMAIN-KEYWORD,github
