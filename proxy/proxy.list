@@ -7,6 +7,7 @@ GEOIP,SG,no-resolve
 
 DOMAIN-KEYWORD,cloudfront
 DOMAIN-KEYWORD,gstatic
+DOMAIN-KEYWORD,google
 
 # OneDrive
 PROCESS-NAME,OneDrive
