@@ -7,6 +7,8 @@ DOMAIN-KEYWORD,-cn
 
 #Scholar Websites
 DOMAIN-KEYWORD,asce
+DOMAIN-KEYWORD,agu
+DOMAIN-KEYWORD,egu
 DOMAIN-KEYWORD,crossref
 DOMAIN-KEYWORD,guanghuiwang
 DOMAIN-KEYWORD,rangluw
@@ -56,5 +58,5 @@ DOMAIN-KEYWORD,itunes
 DOMAIN-SUFFIX,me.com
 
 DOMAIN-KEYWORD,cloudflare
-
+DOMAIN-KEYWORD,jsdelivr
 
