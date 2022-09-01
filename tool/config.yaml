@@ -1,0 +1,104 @@
+#---------------------------------------------------#
+# 配置文件需要放置在 $HOME/.config/clash/config.yml
+# 或者运行目录下的config.yml
+
+mixed-port: 11225
+allow-lan: true
+bind-address: "*"
+ipv6: true
+mode: rule
+log-level: info
+
+# Clash 的 RESTful API
+external-controller: 127.0.0.1:9090
+secret: rangluwme
+# external-ui: public
+# 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
+# 参数应填写配置目录的相对路径或绝对路径。
+# http://127.0.0.1:9090/ui
+# yacd面板：  https://github.com/haishanh/yacd
+# Razord面板：http://clash.razord.top/#/proxies
+
+
+# 实验性功能
+experimental:
+  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+  # interface-name: en0 # outbound interface name
+
+
+dns:
+  enable: true # 是否启用dns false
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host # 模式：redir-host或fake-ip
+  fake-ip-range: 198.18.0.1/16 #
+  fake-ip-filter:
+    # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+  nameserver:
+    - https://dns.alidns.com/dns-query # 阿里 DoH DNS
+    - https://doh.360.cn/dns-query # 360 DoH DNS
+  fallback:
+    - https://8.8.8.8 # 谷歌DNS
+    - https://1.1.1.1 # Cloudflare DNS
+    - tls://dns.rubyfish.cn:853
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+    - https://dns.rubyfish.cn/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+  fallback-filter:
+    geoip: true # 默认
+    ipcidr:
+      # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+      - 240.0.0.0/4
+
+cfw-latency-timeout: 3000
+cfw-latency-url: http://www.gstatic.com/generate_204
+
+cfw-conn-break-strategy:
+  proxy: none # none/chain/all
+  profile: true # true/false
+  mode: false # true/false
+cfw-proxies-order: default
+proxyOrder: 1
+showNewVersionIcon: true
+hideAfterStartup: true
+randomControllerPort: false
+runTimeFormat: "hh : mm : ss"
+trayOrders:
+  - - icon
+  - - status
+    - traffic
+    - text
+hideTrayIcon: false
+shortcutSystemProxy: Control+Alt+s
+shortcutGlobalMode: ""
+shortcutRuleMode: ""
+shortcutShowHideDashboard: ""
+randomMixedPort: false
+showNotifications: false
+theme: 0
+useSystemEmoji: true
+trayColorTransparent: false
+latencyTimeout: 100
+showProxyFilter: false
+hideUnselectableGroup: false
+connChainType: 2
+connProxy: 0
+connShowProcess: true
+logPreloadLineCount: 100
+specifyHttpProxyProtocol: true
+trayProxiesStyle: 0
+showTrayProxyDelayIndicator: true
+profileParsersText: |
+  parsers: # array
+mixinText: |-
+  mixin: # object
+    dns:
+      enable: true
+      listen: :53
+      nameserver:
+        - 8.8.8.8
+systemProxyTypeIndex: 0
