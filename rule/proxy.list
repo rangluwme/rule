@@ -18,13 +18,15 @@ DOMAIN-SUFFIX,cc
 DOMAIN-SUFFIX,pro
 
 DOMAIN-KEYWORD,github
-IP-CIDR,20.205.243.166/32
+IP-CIDR,20.205.243.166/32,no-resolve
 
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,chinadigitaltimes
+DOMAIN-KEYWORD,amazon
+DOMAIN-KEYWORD,cloudfront
 DOMAIN-SUFFIX,washingtonpost.com
 
 # OneDrive
