@@ -27,8 +27,7 @@ DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,sharepoint
 DOMAIN-KEYWORD,hotmail
 DOMAIN-KEYWORD,sharepoint
-DOMAIN,outlook.live.com
-DOMAIN,live.com
+DOMAIN-SUFFIX,live.com
 
 
 
