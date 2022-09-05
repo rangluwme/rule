@@ -1,29 +1,5 @@
-
-DOMAIN-SUFFIX,edu
-DOMAIN-SUFFIX,gov
-DOMAIN-SUFFIX,us
-DOMAIN-SUFFIX,uk
-DOMAIN-SUFFIX,hk
-DOMAIN-SUFFIX,tw
-DOMAIN-SUFFIX,sg
-DOMAIN-SUFFIX,me
-DOMAIN-SUFFIX,io
-DOMAIN-SUFFIX,xyz
-DOMAIN-SUFFIX,top
-DOMAIN-SUFFIX,cc
-DOMAIN-SUFFIX,pro
-
 DOMAIN-KEYWORD,github
 IP-CIDR,20.205.243.166/32,no-resolve
-
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,chinadigitaltimes
-DOMAIN-KEYWORD,amazon
-DOMAIN-KEYWORD,cloudfront
-DOMAIN-SUFFIX,washingtonpost.com
 
 # OneDrive
 DOMAIN-KEYWORD,1drv
@@ -33,26 +9,12 @@ DOMAIN-SUFFIX,photos.live.com
 DOMAIN-SUFFIX,storage.live.com
 
 #Google
-USER-AGENT,*youtube*
-USER-AGENT,YouTube*
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,google
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-
 
 # 内容：Telegram
 # 数量：13条
-DOMAIN-KEYWORD,telegram
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telesco.pe
+DOMAIN-KEYWORD,telegra
 IP-CIDR,91.108.0.0/16,no-resolve
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/21,no-resolve
