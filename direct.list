@@ -1,4 +1,35 @@
 
+#Scholar Websites
+DOMAIN-KEYWORD,asce
+DOMAIN-KEYWORD,agu
+DOMAIN-KEYWORD,egu
+DOMAIN-KEYWORD,crossref
+DOMAIN-KEYWORD,guanghuiwang
+DOMAIN-KEYWORD,rangluw
+DOMAIN-KEYWORD,sciencedirect
+DOMAIN-KEYWORD,clarivate
+DOMAIN-KEYWORD,webofknowledge
+DOMAIN-KEYWORD,webofscience
+DOMAIN-KEYWORD,elsevier
+DOMAIN-KEYWORD,wiley
+DOMAIN-KEYWORD,springer
+DOMAIN-KEYWORD,springernature
+DOMAIN-SUFFIX,pnas.org
+DOMAIN-SUFFIX,science.org
+DOMAIN-SUFFIX,nature.com
+DOMAIN-SUFFIX,doi.org
+DOMAIN-SUFFIX,sciencemag.org
+DOMAIN-SUFFIX,wiley.com
+DOMAIN-SUFFIX,zotero.org
+
+DOMAIN-KEYWORD,office
+DOMAIN-KEYWORD,windows
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,sharepoint
+DOMAIN-KEYWORD,hotmail
+DOMAIN-KEYWORD,sharepoint
+DOMAIN-SUFFIX,live.com
+
 # China Area Network
 GEOIP,CN
 GEOIP,LAN
