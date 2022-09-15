@@ -1,0 +1,7 @@
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,mtalk.google.com
+DOMAIN-SUFFIX,clients4.google.com
+
+#weibo
+DOMAIN-KEYWORD,weibo
+DOMAIN-SUFFIX,sina
