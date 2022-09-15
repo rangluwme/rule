@@ -2,6 +2,9 @@ DOMAIN-KEYWORD,github
 IP-CIDR,20.205.243.166/32,no-resolve
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,awsstatic
+DOMAIN-KEYWORD,duckduckgo
+DOMAIN-KEYWORD,wiki
+
 
 # OneDrive
 DOMAIN-KEYWORD,1drv
