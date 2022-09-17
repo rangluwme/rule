@@ -1,8 +1,5 @@
 
 # Websites
-DOMAIN-KEYWORD,staticfile
-DOMAIN-KEYWORD,aliyun
-DOMAIN-KEYWORD,alicdn
 
 #Scholar Websites
 DOMAIN-KEYWORD,asce
@@ -29,6 +26,7 @@ DOMAIN-SUFFIX,zotero.org
 
 #Microsoft
 DOMAIN,live.com
+DOMAIN,login.live.com
 DOMAIN-KEYWORD,office
 DOMAIN-KEYWORD,bing
 DOMAIN-KEYWORD,windows
@@ -36,18 +34,10 @@ DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,sharepoint
 DOMAIN-KEYWORD,hotmail
 DOMAIN-KEYWORD,outlook
-DOMAIN-KEYWORD,onenote
-DOMAIN-KEYWORD,skype
-DOMAIN-KEYWORD,azure
 DOMAIN-SUFFIX,msftauth.net
-DOMAIN-SUFFIX,msedge.net
-DOMAIN-SUFFIX,ms
+
 
 #Apple 
-DOMAIN,api.smoot.apple.cn
-DOMAIN,apple-events.akamaized.net
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-KEYWORD,icloud
 DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,itunes
