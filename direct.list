@@ -1,7 +1,8 @@
 
 # Websites
-DOMAIN-KEYWORD,gstatic
-
+DOMAIN-KEYWORD,staticfile
+DOMAIN-KEYWORD,aliyun
+DOMAIN-KEYWORD,alicdn
 
 #Scholar Websites
 DOMAIN-KEYWORD,asce
@@ -27,6 +28,7 @@ DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,zotero.org
 
 #Microsoft
+DOMAIN,live.com
 DOMAIN-KEYWORD,office
 DOMAIN-KEYWORD,bing
 DOMAIN-KEYWORD,windows
@@ -34,7 +36,12 @@ DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,sharepoint
 DOMAIN-KEYWORD,hotmail
 DOMAIN-KEYWORD,outlook
-DOMAIN,live.com
+DOMAIN-KEYWORD,onenote
+DOMAIN-KEYWORD,skype
+DOMAIN-KEYWORD,azure
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,ms
 
 #Apple 
 DOMAIN,api.smoot.apple.cn
@@ -46,16 +53,7 @@ DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,itunes
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
-IP-CIDR,139.178.128.0/18,no-resolve
-IP-CIDR,144.178.0.0/19,no-resolve
-IP-CIDR,144.178.36.0/22,no-resolve
-IP-CIDR,144.178.48.0/20,no-resolve
-IP-CIDR,17.0.0.0/8,no-resolve
-IP-CIDR,192.35.50.0/24,no-resolve
-IP-CIDR,198.183.17.0/24,no-resolve
-IP-CIDR,205.180.175.0/24,no-resolve
-IP-CIDR,63.92.224.0/19,no-resolve
-IP-CIDR,65.199.22.0/23,no-resolve
+
 
 # China Area Network
 DOMAIN-SUFFIX,cn
