@@ -1,6 +1,5 @@
 #Microsoft
-DOMAIN,live.com
-DOMAIN,login.live.com
+DOMAIN-SUFFIX,live.com
 DOMAIN-KEYWORD,office
 DOMAIN-KEYWORD,edge
 DOMAIN-KEYWORD,azure

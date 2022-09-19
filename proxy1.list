@@ -6,5 +6,5 @@ DOMAIN-SUFFIX,licdn.cn
 # OneDrive
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,onedrive
-DOMAIN-SUFFIX,photos.live.com
-DOMAIN-SUFFIX,storage.live.com
+DOMAIN,photos.live.com
+DOMAIN,storage.live.com
