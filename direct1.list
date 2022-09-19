@@ -11,6 +11,7 @@ DOMAIN-KEYWORD,sharepoint
 DOMAIN-KEYWORD,hotmail
 DOMAIN-KEYWORD,outlook
 DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,ms
 
 
@@ -20,3 +21,5 @@ DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,itunes
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
+
+
