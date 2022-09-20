@@ -1,5 +1,6 @@
 DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,alicloud
 
 #Microsoft
 DOMAIN-SUFFIX,live.com
@@ -20,7 +21,6 @@ DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 
 
 #Apple 
-DOMAIN-KEYWORD,icloud
 DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,itunes
 DOMAIN-SUFFIX,me.com
