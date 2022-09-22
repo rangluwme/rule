@@ -3,16 +3,12 @@ DOMAIN-KEYWORD,linkedin
 DOMAIN-SUFFIX,licdn.cn
 
 # OneDrive
-PROCESS-NAME,onedrive
-PROCESS-NAME,onedriveupdater
 DOMAIN-KEYWORD,1drv
 DOMAIN,photos.live.com
 DOMAIN,storage.live.com
 DOMAIN,onedrive.live.com
 DOMAIN,onedrive.com
-DOMAIN,livefilestore.com
 DOMAIN,sharepointonline.com
-DOMAIN,storage.msn.com
 
 
 
