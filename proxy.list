@@ -4,9 +4,10 @@ DOMAIN-SUFFIX,licdn.cn
 
 
 # OneDrive
-# DOMAIN-KEYWORD,1drv
-# DOMAIN,photos.live.com
-# DOMAIN,storage.live.com
+DOMAIN-KEYWORD,1drv
+DOMAIN,photos.live.com
+DOMAIN,storage.live.com
+DOMAIN,onedrive.live.com
 
 # DOMAIN-KEYWORD,github
 # IP-CIDR,20.205.243.166/32,no-resolve
