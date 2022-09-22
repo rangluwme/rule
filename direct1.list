@@ -1,4 +1,3 @@
-
 #Microsoft
 DOMAIN-SUFFIX,live.com
 DOMAIN-KEYWORD,office
@@ -14,8 +13,6 @@ DOMAIN-SUFFIX,msftauth.net
 DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,ms
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-
-
 
 #Apple 
 DOMAIN-KEYWORD,apple
