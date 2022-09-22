@@ -10,19 +10,3 @@ DOMAIN,onedrive.live.com
 DOMAIN,onedrive.com
 DOMAIN,sharepointonline.com
 
-
-
-# DOMAIN-KEYWORD,github
-# IP-CIDR,20.205.243.166/32,no-resolve
-# DOMAIN-KEYWORD,amazon
-# DOMAIN-KEYWORD,awsstatic
-# DOMAIN-KEYWORD,duckduckgo
-# DOMAIN-KEYWORD,brave
-# DOMAIN-KEYWORD,wiki
-# DOMAIN-KEYWORD,youtube
-# DOMAIN-KEYWORD,google
-# DOMAIN-SUFFIX,ggpht.com
-# DOMAIN-SUFFIX,gvt2.com
-# DOMAIN-SUFFIX,youtu.be
-# DOMAIN-SUFFIX,yt.be
-# DOMAIN-SUFFIX,ytimg.com
