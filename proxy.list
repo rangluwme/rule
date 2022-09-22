@@ -4,6 +4,7 @@ DOMAIN-SUFFIX,licdn.cn
 
 
 # OneDrive
+PROCESS-NAME,OneDrive
 DOMAIN-KEYWORD,1drv
 DOMAIN,photos.live.com
 DOMAIN,storage.live.com
