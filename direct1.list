@@ -1,8 +1,4 @@
 #Microsoft
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,live.net
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,onedrive.com
 DOMAIN-KEYWORD,office
 DOMAIN-KEYWORD,edge
 DOMAIN-KEYWORD,azure
@@ -12,9 +8,13 @@ DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,sharepoint
 DOMAIN-KEYWORD,hotmail
 DOMAIN-KEYWORD,outlook
+DOMAIN-SUFFIX,ms
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,msftauth.net
 DOMAIN-SUFFIX,msauth.net
-DOMAIN-SUFFIX,ms
 
 #Apple 
 DOMAIN-KEYWORD,apple
