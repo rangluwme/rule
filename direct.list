@@ -9,11 +9,7 @@ IP-CIDR,0.0.0.0/8
 IP-CIDR,10.0.0.0/8
 
 #Scholar Websites
-DOMAIN-KEYWORD,asce
-DOMAIN-KEYWORD,agu
-DOMAIN-KEYWORD,egu
-DOMAIN-KEYWORD,crossref
-DOMAIN-KEYWORD,guanghuiwang
+DOMAIN-SUFFIX,ascelibrary.org
 DOMAIN-KEYWORD,rangluw
 DOMAIN-KEYWORD,sciencedirect
 DOMAIN-KEYWORD,clarivate
@@ -23,15 +19,13 @@ DOMAIN-KEYWORD,elsevier
 DOMAIN-KEYWORD,wiley
 DOMAIN-KEYWORD,springer
 DOMAIN-KEYWORD,science
+DOMAIN-KEYWORD,nature
 DOMAIN-KEYWORD,research
-DOMAIN-KEYWORD,frontiers
-DOMAIN-SUFFIX,pnas.org
-DOMAIN-SUFFIX,nature.com
-DOMAIN-SUFFIX,ieee.org
-DOMAIN-SUFFIX,wiley.com
-DOMAIN-SUFFIX,zotero.org
-DOMAIN-SUFFIX,iop.org
 DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,pnas.org
+DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,zotero.org
+
 
 #Microsoft
 DOMAIN-KEYWORD,office
