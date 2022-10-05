@@ -15,11 +15,10 @@ mixin: # Mixin 配置文件
       - 180.76.76.76
       - 223.5.5.5
       - 119.29.29.29
+      - 114.114.114.114
     nameserver: # GeoIP 为 CN 时使用的 DNS NameServer（使用DoH/DoT）
       # 同时注意可能发生 WIFI 切换的情况，切换之后 10.10.0.21 就不能用了，
       # 因此还加个兜底，这里随便加一个就行
-      - 10.105.1.124
-      - 10.105.1.122
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
       - https://i.passcloud.xyz/dns-query
@@ -32,6 +31,9 @@ mixin: # Mixin 配置文件
       - 1.1.1.1
       - 8.8.8.8
       - 9.9.9.9
+    nameserver-policy:
+      '+.zju.edu.cn': '10.105.1.124'
+      '+.cc98.org': '10.105.1.124'
     fallback-filter:
       geoip: false
       ipcidr:
