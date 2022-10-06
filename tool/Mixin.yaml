@@ -13,16 +13,19 @@ mixin: # Mixin 配置文件
       # - 10.10.0.21
       # - 10.10.2.53
       - 223.5.5.5
-      - 8.8.8.8
+      - 1.1.1.1
     nameserver-policy:
       '+.zju.edu.cn': '10.105.1.124'
       '+.cc98.org': '10.105.1.124'
+      '+.qq.com': '119.29.29.29'
     nameserver: # GeoIP 为 CN 时使用的 DNS NameServer（使用DoH/DoT）
       # 同时注意可能发生 WIFI 切换的情况，切换之后 10.10.0.21 就不能用了，
       # 因此还加个兜底，这里随便加一个就行
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
-      - https://i.passcloud.xyz/dns-query
+      - https://a.passcloud.xyz/dns-query # (Anycast 推荐 智能默认地址）
+      - https://a.passcloud.xyz/cdn  #（CDN 加速 推荐）
+      - https://worldwide.passcloud.xyz/dns-query #Worldwide CDN 节点默认地址（全球 CDN 节点 Akamai Amazon Cloudflare Google 随机选择）
       # 之所以建议尽量不设置 fallback，因为使用 fallback 以后会 DNS 解析用时会大大延长，
       #从而影响整体 HTTP 延时，严重影响上网体验。如果受 DNS 污染所迫被迫设置 fallback，请尽可能选择速度快的 DoT 作为 fallback
     fallback: # GeoIP 不是 CN 时使用的 DNS NameServer（使用DoH/DoT）
