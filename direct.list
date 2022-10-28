@@ -1,8 +1,10 @@
 # China Area Network
-DOMAIN-SUFFIX,cn
-DOMAIN-KEYWORD,-cn
 IP-CIDR,0.0.0.0/8
 IP-CIDR,10.0.0.0/8
+DOMAIN-SUFFIX,cn
+DOMAIN-KEYWORD,-cn
+GEOIP,CN
+GEOIP,LAN
 
 #Scholar Websites
 DOMAIN-SUFFIX,ascelibrary.org
@@ -21,6 +23,4 @@ DOMAIN-SUFFIX,ieee.org
 DOMAIN-SUFFIX,zotero.org
 
 
-GEOIP,CN
-GEOIP,LAN
 
