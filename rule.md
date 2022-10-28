@@ -20,3 +20,15 @@ DOMAIN-SUFFIX,onedrive.com
 DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,itunes
 DOMAIN-SUFFIX,mzstatic.com
+
+
+
+
+
+# OneDrive
+DOMAIN-KEYWORD,1drv
+DOMAIN,photos.live.com
+DOMAIN,storage.live.com
+DOMAIN,onedrive.live.com
+DOMAIN,onedrive.com
+DOMAIN,sharepointonline.com
