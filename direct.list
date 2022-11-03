@@ -1,13 +1,7 @@
-# China Area Network
-IP-CIDR,0.0.0.0/8
-IP-CIDR,10.0.0.0/8
-DOMAIN-SUFFIX,cn
-DOMAIN-KEYWORD,-cn
 GEOIP,CN
 GEOIP,LAN
 
 #Scholar Websites
-DOMAIN-SUFFIX,ascelibrary.org
 DOMAIN-KEYWORD,sciencedirect
 DOMAIN-KEYWORD,clarivate
 DOMAIN-KEYWORD,webofknowledge
@@ -17,10 +11,11 @@ DOMAIN-KEYWORD,wiley
 DOMAIN-KEYWORD,springer
 DOMAIN-KEYWORD,science
 DOMAIN-KEYWORD,nature
+DOMAIN-SUFFIX,ascelibrary.org
 DOMAIN-SUFFIX,acs.org
 DOMAIN-SUFFIX,pnas.org
 DOMAIN-SUFFIX,ieee.org
 DOMAIN-SUFFIX,zotero.org
-
-
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,storage.live.com
 

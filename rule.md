@@ -14,18 +14,7 @@ DOMAIN-SUFFIX,ms
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,onedrive.com
 
-#Apple 
-DOMAIN-KEYWORD,apple
-DOMAIN-KEYWORD,itunes
-DOMAIN-SUFFIX,mzstatic.com
-
-
-
-
-
-# OneDrive
 DOMAIN-KEYWORD,1drv
 DOMAIN,photos.live.com
 DOMAIN,storage.live.com
