@@ -1,5 +1,8 @@
 GEOIP,CN
 GEOIP,LAN
+DOMAIN-SUFFIX,cn
+DOMAIN-KEYWORD,-cn
+IP-CIDR,10.0.0.0/8
 
 #Scholar Websites
 DOMAIN-KEYWORD,sciencedirect
