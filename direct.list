@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,pnas.org
 DOMAIN-SUFFIX,ieee.org
 
 #Microsoft
+DOMAIN,live.com
 DOMAIN-KEYWORD,office
 DOMAIN-KEYWORD,edge
 DOMAIN-KEYWORD,azure
@@ -31,7 +32,6 @@ DOMAIN-KEYWORD,outlook
 DOMAIN-KEYWORD,msftauth
 DOMAIN-KEYWORD,msauth
 DOMAIN-SUFFIX,ms
-DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,onedrive.com
