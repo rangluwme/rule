@@ -17,6 +17,7 @@ mixin: # Mixin 配置文件
       '+.zju.edu.cn': '10.105.1.124'
       '+.cc98.org': '10.105.1.124'
       '+.cc98.top': '10.105.1.124'
+    # proxy-server-nameserver:
     default-nameserver:
       - 223.5.5.5
       - 1.1.1.1
