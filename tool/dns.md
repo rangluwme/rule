@@ -45,24 +45,3 @@ https://1.1.1.1/dns-query
 - DoT:
 1dot1dot1dot1.cloudflare-dns.com
 one.one.one.one
-
-##   Quad9 DNS
-IBM 发起的 Quad9 提供的公共免费 DNS 服务，同时包含 IPv4/IPv6/DoT/DoH.
-
-IPv4: 
-9.9.9.9
-149.112.112.112
-
-IPv6: 
-2620:fe::fe
-
-2620:fe::9
-
-DoH 地址: 
-https://dns.quad9.net/dns-query
-
-DoT 地址: 
-dns.quad9.net
-
-
-
