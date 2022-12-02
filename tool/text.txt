@@ -11,3 +11,29 @@ https://www.google.com/?lr=lang_zh-CN
 (A)|(B)         节点名有 A 或者 B  
 ^((?!A).)*$     节点名不含有 A
 (?!.*(A)).*(B)  节点名不含有 A，同时含有 B
+
+DOMAIN-KEYWORD,sciencedirect
+DOMAIN-KEYWORD,clarivate
+DOMAIN-KEYWORD,webofknowledge
+DOMAIN-KEYWORD,webofscience
+DOMAIN-KEYWORD,elsevier
+DOMAIN-KEYWORD,wiley
+DOMAIN-KEYWORD,springer
+DOMAIN-KEYWORD,science
+DOMAIN-KEYWORD,nature
+DOMAIN-SUFFIX,ascelibrary.org
+DOMAIN-SUFFIX,acs.org
+DOMAIN-SUFFIX,pnas.org
+DOMAIN-SUFFIX,ieee.org
+DOMAIN-SUFFIX,pnas.org
+#Microsoft
+DOMAIN,live.com
+DOMAIN-KEYWORD,office
+DOMAIN-KEYWORD,windows
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,hotmail
+DOMAIN-KEYWORD,outlook
+DOMAIN-KEYWORD,msftauth
+DOMAIN-KEYWORD,msauth
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,storage.live.com
