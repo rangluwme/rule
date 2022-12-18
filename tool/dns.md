@@ -21,6 +21,11 @@ https://sm2.doh.pub/dns-query
 dot.pub
 
 
+## iQDNS
+https://cn-east.lele233.com/dns-query
+https://cn-east.lele233.com/cdn
+https://cn-east-rsa.lele233.com/dns-query
+https://cn-east-rsa.lele233.com/cdn
 ## 谷歌DNS：
 Google 提供的公共免费 DNS，应该是国外最流行的 公共 DNS 了，国内无法正常使用，同时提供 IPv4/IPv6/DoT/DoH 服务。
 - IPV4：8.8.8.8 8.8.4.4
