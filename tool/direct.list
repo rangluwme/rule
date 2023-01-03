@@ -1,5 +1,4 @@
-
-#Microsoft
+IP-CIDR,10.0.0.0/8
 DOMAIN,live.com
 DOMAIN-KEYWORD,office
 DOMAIN-KEYWORD,hotmail
@@ -9,6 +8,5 @@ DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,api.onedrive.com
 DOMAIN-SUFFIX,cn
 DOMAIN-KEYWORD,-cn
-IP-CIDR,10.0.0.0/8
 GEOIP,CN
 GEOIP,LAN
