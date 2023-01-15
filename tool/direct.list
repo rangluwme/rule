@@ -1,12 +1,7 @@
 IP-CIDR,10.0.0.0/8
 DOMAIN,live.com
-DOMAIN-KEYWORD,office
-DOMAIN-KEYWORD,hotmail
-DOMAIN-KEYWORD,outlook
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,api.onedrive.com
 DOMAIN-SUFFIX,cn
 DOMAIN-KEYWORD,-cn
-GEOIP,CN
-GEOIP,LAN
