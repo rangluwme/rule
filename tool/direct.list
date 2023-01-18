@@ -11,9 +11,7 @@ DOMAIN-KEYWORD,outlook
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,itunes.com
-DOMAIN-KEYWORD,icloud
-DOMAIN-KEYWORD,apple
-DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
