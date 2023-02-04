@@ -26,27 +26,18 @@ dot.pub
 - https://cn-east.lele233.com/cdn
 - https://cn-east-rsa.lele233.com/dns-query
 - https://cn-east-rsa.lele233.com/cdn
-## 谷歌DNS：
-Google 提供的公共免费 DNS，应该是国外最流行的 公共 DNS 了，国内无法正常使用，同时提供 IPv4/IPv6/DoT/DoH 服务。
-- IPV4：8.8.8.8 8.8.4.4
-- IPV6：
-2001:4860:4860::8888 
-2001:4860:4860::8844
-- DoH：
-https://dns.google/dns-query
-- DoT：
-dns.google
 
 
-## Cloudflare DNS：
-- IPV4：1.1.1.1 1.0.0.1
-- IPV6：
-2606:4700:4700::1111 
-2606:4700:4700::1001
-- DoH：
-https://cloudflare-dns.com/dns-query
-https://1.0.0.1/dns-query
-https://1.1.1.1/dns-query
-- DoT:
-1dot1dot1dot1.cloudflare-dns.com
-one.one.one.one
+http://www.msftconnecttest.com/connecttest.txt
+http://captive.apple.com/
+http://www.apple.com/library/test/success.html
+
+https://www.google.com/search?q=%s&lr=lang_zh-CN
+https://www.google.com/search?q=%s&hl=zh_CN
+
+https://www.google.com/?hl=zh_CN
+https://www.google.com/?lr=lang_zh-CN
+(A).*(B)        节点名既有 A又有 B
+(A)|(B)         节点名有 A 或者 B  
+^((?!A).)*$     节点名不含有 A
+(?!.*(A)).*(B)  节点名不含有 A，同时含有 B
