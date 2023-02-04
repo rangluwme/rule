@@ -2,6 +2,7 @@
 http://www.msftconnecttest.com/connecttest.txt
 http://captive.apple.com/
 http://www.apple.com/library/test/success.html
+
 https://www.google.com/search?q=%s&lr=lang_zh-CN
 https://www.google.com/search?q=%s&hl=zh_CN
 
@@ -12,17 +13,3 @@ https://www.google.com/?lr=lang_zh-CN
 ^((?!A).)*$     节点名不含有 A
 (?!.*(A)).*(B)  节点名不含有 A，同时含有 B
 
-DOMAIN-KEYWORD,sciencedirect
-DOMAIN-KEYWORD,clarivate
-DOMAIN-KEYWORD,webofknowledge
-DOMAIN-KEYWORD,webofscience
-DOMAIN-KEYWORD,elsevier
-DOMAIN-KEYWORD,wiley
-DOMAIN-KEYWORD,springer
-DOMAIN-KEYWORD,science
-DOMAIN-KEYWORD,nature
-DOMAIN-SUFFIX,ascelibrary.org
-DOMAIN-SUFFIX,acs.org
-DOMAIN-SUFFIX,pnas.org
-DOMAIN-SUFFIX,ieee.org
-DOMAIN-SUFFIX,pnas.org
