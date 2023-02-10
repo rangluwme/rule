@@ -22,18 +22,16 @@ dot.pub
 
 
 ## iQDNS
-- https://cn-east.lele233.com/dns-query
-- https://cn-east.lele233.com/cdn
-- https://cn-east-rsa.lele233.com/dns-query
-- https://cn-east-rsa.lele233.com/cdn
 
 
 - http://www.msftconnecttest.com/connecttest.txt
 - http://captive.apple.com/
 - http://www.apple.com/library/test/success.html
+--
 
 - https://www.google.com/search?q=%s&lr=lang_zh-CN
 - https://www.google.com/search?q=%s&hl=zh_CN
+--
 
 - https://www.google.com/?hl=zh_CN
 - https://www.google.com/?lr=lang_zh-CN
