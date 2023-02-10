@@ -1,3 +1,9 @@
+# 域名
+DOMAIN-SUFFIX,zju.edu.cn
+# CC98
+DOMAIN-KEYWORD,cc98
+# 校内 IP
+IP-CIDR,10.0.0.0/8,no-resolve
 
 DOMAIN,live.com
 DOMAIN-SUFFIX,onedrive.com
