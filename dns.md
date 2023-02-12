@@ -43,12 +43,7 @@ dot.pub
 >
 > (?!.*(A)).*(B)  节点名不含有 A，同时含有 B
 
-  nameserver:
-    - 10.105.1.124
-    - 10.105.1.122
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-  fallback:
+```
     - https://east.lele233.pro/dns-query
     - https://east.lele233.pro/cdn
     - https://hk.lele233.cn:2333/dns-query
@@ -58,4 +53,4 @@ dot.pub
     - https://cn-south.iqiqzz.com/cdn
     - https://south.lele233.pro/dns-query
     - https://south.lele233.pro/cdn
-
+```
