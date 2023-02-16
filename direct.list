@@ -5,7 +5,7 @@ DOMAIN-KEYWORD,cc98
 # 校内 IP
 IP-CIDR,10.0.0.0/8,no-resolve
 
-DOMAIN,live.com
+DOMAIN,login.live.com
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,api.onedrive.com
