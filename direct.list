@@ -6,6 +6,7 @@ DOMAIN-KEYWORD,cc98
 IP-CIDR,10.0.0.0/8,no-resolve
 
 DOMAIN,login.live.com
+DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,api.onedrive.com
