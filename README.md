@@ -1,3 +1,5 @@
+https://sub.zjurule.xyz/sub?target=clash&url=&config=https://raw.githubusercontent.com/rangluwme/rule/main/clash.ini
+
 ## Clash中的DNS
 
 DNS在Clash有如下应用：
