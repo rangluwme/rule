@@ -1,4 +1,4 @@
-- https://sub.zjurule.xyz/sub?target=clash&url=tg://socks?server=127.0.0.1&port=1080&remarks=ZJU|&config=https://raw.githubusercontent.com/rangluwme/rule/main/clash.ini
+- &config=https%3A%2F%2Fraw.githubusercontent.com%2Frangluwme%2Frule%2Fmain%2Fclash.ini.ini
 
 - https://github.com/Fndroid/clash_for_windows_pkg/releases/latest
 
