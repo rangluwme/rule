@@ -11,11 +11,12 @@ DOMAIN-KEYWORD,office
 DOMAIN-KEYWORD,hotmail
 DOMAIN-KEYWORD,outlook
 DOMAIN-KEYWORD,windows
+DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,api.onedrive.com
-DOMAIN-SUFFIX,aka.ms
+DOMAIN-SUFFIX,ms
 DOMAIN-SUFFIX,msft.net
 DOMAIN-SUFFIX,msftauth.net
 DOMAIN-SUFFIX,msftauthimages.net
