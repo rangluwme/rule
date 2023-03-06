@@ -2,3 +2,4 @@
 
 - https://github.com/Fndroid/clash_for_windows_pkg/releases/latest
 
+- https://raw.githubusercontent.com/rangluwme/rule/main/rangluw.mobileconfig
