@@ -3,14 +3,25 @@ DOMAIN-KEYWORD,cc98
 # 校内 IP
 IP-CIDR,10.0.0.0/8,no-resolve
 
+DOMAIN-SUFFIX,ms
+DOMAIN-KEYWORD,azure
 DOMAIN,login.live.com
 DOMAIN-KEYWORD,office
 DOMAIN-KEYWORD,hotmail
 DOMAIN-KEYWORD,outlook
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,windows
 DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,api.onedrive.com
+DOMAIN-SUFFIX,msft.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msftidentity.com
+DOMAIN-SUFFIX,msidentity.com
+DOMAIN-SUFFIX,msftauthimages.net
+DOMAIN-SUFFIX,microsoftonline.com
+
 
 DOMAIN-SUFFIX,cn
 DOMAIN-KEYWORD,-cn
