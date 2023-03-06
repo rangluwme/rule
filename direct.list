@@ -21,7 +21,8 @@ DOMAIN-SUFFIX,msftidentity.com
 DOMAIN-SUFFIX,msidentity.com
 DOMAIN-SUFFIX,msftauthimages.net
 DOMAIN-SUFFIX,microsoftonline.com
-
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,akadns.net
 
 DOMAIN-SUFFIX,cn
 DOMAIN-KEYWORD,-cn
