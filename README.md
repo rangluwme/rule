@@ -4,7 +4,7 @@
 - https://github.com/Mythologyli/ZJU-Rule/tree/master/Clash
 ```
 parsers:
-  - reg: ^https://sub\.xeton\.dev\/.+$
+  - reg: ^https://.+$
     yaml:
       prepend-rules:
         - DOMAIN-KEYWORD,logitechg,REJECT
