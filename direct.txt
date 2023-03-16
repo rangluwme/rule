@@ -1,5 +1,4 @@
 payload:
-
  - DOMAIN-KEYWORD,cc98
  - DOMAIN-KEYWORD,office
  - DOMAIN-KEYWORD,hotmail
