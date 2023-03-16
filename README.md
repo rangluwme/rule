@@ -1,6 +1,4 @@
 
-## 检测网络联通性&generate_204
-
 - http://www.msftconnecttest.com/connecttest.txt
 - http://captive.apple.com/
 - http://www.apple.com/library/test/success.html
@@ -13,6 +11,7 @@
 
 - https://www.google.com/?hl=zh_CN
 - https://www.google.com/?lr=lang_zh-CN
+---
 
 > (A).*(B)        节点名既有 A又有 B  
 >
@@ -176,6 +175,7 @@ parsers: # array
           interval: 86400
           path: ./ACL4SSR/ProxyGFWlist.yaml
 ```
+---
 
 ```
 mixin: # Mixin 配置文件
