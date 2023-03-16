@@ -133,7 +133,7 @@ parsers: # array
         directlist: # 需要直连的常见软件列表
           type: http
           behavior: classical
-          url: "https://raw.githubusercontent.com/rangluwme/rule/main/directlist.yaml"
+          url: "https://cdn.jsdelivr.net/gh/rangluwme/rule/directlist.yaml"
           path: ./ruleset/directlist.yaml
           interval: 86400
         zju: # 需要直连的常见软件列表
