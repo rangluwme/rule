@@ -33,11 +33,11 @@ parsers: # array
       } 
     yaml:
       append-proxies:
-        - name: ZJU # proxies最后面增加一个服务
+        - name: ZJU
           type: socks5
           server: 127.0.0.1
           port: 1080
-      prepend-proxy-groups: # 建立策略组
+      prepend-proxy-groups:
         - name: 🏫 ZJUWLAN
           type: select
           proxies:
