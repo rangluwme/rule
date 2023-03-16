@@ -1,3 +1,4 @@
+payload:
 # 域名
  - DOMAIN-SUFFIX,zju.edu.cn
 
