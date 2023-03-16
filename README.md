@@ -178,7 +178,7 @@ parsers: # array
 ---
 
 ```
-mixin: # Mixin 配置文件
+mixin:
   tun:
     enable: true
     stack: gvisor
@@ -214,11 +214,7 @@ mixin: # Mixin 配置文件
       - https://cn-east.iqiqzz.com/cdn
       - https://cn-south.iqiqzz.com/dns-query
       - https://cn-south.iqiqzz.com/cdn
-      # - https://cloudflare-dns.com/dns-query
-      # - https://dns.google/dns-query
-    fallback-filter: #开启之后，fallback才会生效，符合条件的IP会使用fallback解析，实际测试下来速度会很慢，此时可以把nameserver里面的DNS放到fallback里面
-    # 但是这样就跟原来不开启fallback-filter是一样的。
-    # 所以在dns污染的时候可以开启fallback和fallback-filter 选项，默认不开启就可以了。Alidns对于国内外域名解析是一流的，可以放心使用。
+    fallback-filter:
       geoip: true
       geoip-code: CN
       ipcidr:
