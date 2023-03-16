@@ -91,10 +91,16 @@ parsers: # array
         - IP-CIDR6,2001:67c:4e8::/48,REJECT
         - IP-CIDR6,2001:b28:f23d::/48,REJECT
         - IP-CIDR6,2001:b28:f23f::/48,REJECT
-        - RULE-SET,directlist,DIRECT
+
+        - RULE-SET,BanAD,REJECT
+        - RULE-SET,BanProgramAD,REJECT
+        - RULE-SET,reject,REJECT
+
         - RULE-SET,zju,🏫 ZJUWLAN
         - RULE-SET,proxylist,💥 Proxy Network
-        - RULE-SET,reject,REJECT
+        
+        - RULE-SET,directlist,DIRECT
+        - RULE-SET,Microsoft,DIRECT
         - RULE-SET,cncidr,DIRECT
         - RULE-SET,direct,DIRECT
         - GEOIP,CN,DIRECT
@@ -137,6 +143,27 @@ parsers: # array
           url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
           path: ./ruleset/cncidr.yaml
           interval: 86400
+        BanAD:
+          behavior: classical 
+          type: http
+          url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml"
+          interval: 86400
+          path: ./ACL4SSR/BanAD.yaml
+        BanProgramAD:
+          behavior: classical 
+          type: http
+          url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml"
+          interval: 86400
+          path: ./ACL4SSR/BanProgramAD.yaml
+        Microsoft:
+          behavior: classical 
+          type: http
+          url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml"
+          interval: 86400
+          path: ./ACL4SSR/Microsoft.yaml
+
+
+
 
 
 ```
