@@ -111,19 +111,19 @@ parsers: # array
         directlist: 
           type: http
           behavior: classical
-          url: "https://cdn.jsdelivr.net/gh/rangluwme/rule/directlist.yaml"
+          url: "https://raw.githubusercontent.com/rangluwme/rule/main/directlist.yaml"
           path: ./ruleset/directlist.yaml
           interval: 86400
         zju: 
           type: http
           behavior: classical
-          url: "https://cdn.jsdelivr.net/gh/rangluwme/rule/zju.yaml"
+          url: "https://raw.githubusercontent.com/rangluwme/rule/main/zju.yaml"
           path: ./ruleset/zju.yaml
           interval: 86400
         proxylist: 
           type: http
           behavior: classical
-          url: "https://cdn.jsdelivr.net/gh/rangluwme/rule/proxylist.yaml"
+          url: "https://raw.githubusercontent.com/rangluwme/rule/main/proxylist.yaml"
           path: ./ruleset/proxylist.yaml
           interval: 86400
         reject: # 广告域名列表
