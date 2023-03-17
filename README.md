@@ -3,6 +3,8 @@
 - http://captive.apple.com/
 - http://www.apple.com/library/test/success.html
 
+- https://github.com/Mythologyli/ZJU-Rule/tree/master/Clash/Providers
+
 ---
 - https://invite.efshop.cc/#/register?code=vHGeVVP1
 - https://www.google.com/search?q=%s&lr=lang_zh-CN
