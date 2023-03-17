@@ -2,8 +2,7 @@
 - http://www.msftconnecttest.com/connecttest.txt
 - http://captive.apple.com/
 - http://www.apple.com/library/test/success.html
-- aHR0cHM6Ly92MS5lZnNob3AuY2MvYXBpL3YxL2NsaWVudC9zdWJzY3JpYmU/dG9rZW49OWZiMGVmZDM4ZjQzMWVmNjRmZjk0MzU1MDczMDdmYjc=
-- aHR0cHM6Ly9pbnZpdGUuZWZzaG9wLmNjLyMvcmVnaXN0ZXI/Y29kZT12SEdlVlZQMQ==
+
 ---
 
 - https://www.google.com/search?q=%s&lr=lang_zh-CN
