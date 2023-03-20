@@ -4,6 +4,7 @@
 - http://www.apple.com/library/test/success.html
 
 - https://github.com/Mythologyli/ZJU-Rule/tree/master/Clash/Providers
+- https://github.abskoop.workers.dev/https://github.com/rangluwme/rule/releases/download/1.0/Clash.7z
 
 ---
 - https://invite.efshop.cc/#/register?code=vHGeVVP1
