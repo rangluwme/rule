@@ -34,49 +34,17 @@ parsers: # array
         return yaml.stringify({ ...rawObj, 'proxy-groups': groups, rules })
       } 
     yaml:
-      prepend-rules:
-        # - DOMAIN-KEYWORD,logitechg,REJECT
-        - DOMAIN-KEYWORD,analytics,REJECT 
-        - DOMAIN-KEYWORD,adservice,REJECT
-
-        - DOMAIN-KEYWORD,weibo,REJECT
-        - DOMAIN-KEYWORD,sinaimg,REJECT
-        - DOMAIN-KEYWORD,v2ex,REJECT
-        - DOMAIN-KEYWORD,cc98,REJECT
-        - DOMAIN-KEYWORD,rangluw,REJECT
-        - DOMAIN-KEYWORD,youtube,REJECT
-        - DOMAIN-KEYWORD,googlevideo,REJECT
-        - DOMAIN-SUFFIX,ytimg.com,REJECT
-        - DOMAIN-SUFFIX,t.me,REJECT
-        - DOMAIN-SUFFIX,tdesktop.com,REJECT
-        - DOMAIN-SUFFIX,telegra.ph,REJECT
-        - DOMAIN-SUFFIX,telegram.me,REJECT
-        - DOMAIN-SUFFIX,telegram.org,REJECT
-        - DOMAIN-SUFFIX,telesco.pe,REJECT
-        - IP-CIDR,91.108.0.0/16,REJECT
-        - IP-CIDR,109.239.140.0/24,REJECT
-        - IP-CIDR,149.154.160.0/20,REJECT
-        - IP-CIDR6,2001:67c:4e8::/48,REJECT
-        - IP-CIDR6,2001:b28:f23d::/48,REJECT
-        - IP-CIDR6,2001:b28:f23f::/48,REJECT
-
-        - RULE-SET,BanAD,REJECT
-        - RULE-SET,BanProgramAD,REJECT
-        - RULE-SET,reject,REJECT
-
-        - RULE-SET,zju,DIRECT
-        - RULE-SET,proxylist,💥 Proxy Network
-        
-        - RULE-SET,Microsoft,DIRECT
-        - RULE-SET,direct,DIRECT
-        - RULE-SET,cncidr,DIRECT
-        - RULE-SET,directlist,DIRECT
-
-        - RULE-SET,ProxyLite,💥 Proxy Network
-        - RULE-SET,ProxyGFWlist,💥 Proxy Network
-        - GEOIP,CN,DIRECT
-        - MATCH,💥 Proxy Network
+      append-proxies:
+        - name: ZJU
+          type: socks5
+          server: 127.0.0.1
+          port: 1080
       prepend-proxy-groups:
+        - name: 🏫 ZJUWLAN
+          type: select
+          proxies:
+          - DIRECT
+          - ZJU
         - name: 💥 Proxy Network
           type: select
           proxies:
@@ -86,19 +54,59 @@ parsers: # array
         - name: 🇭🇰 香港 
           type: url-test
           url: http://www.apple.com/library/test/success.html
-          interval: 100
+          interval: 300
         - name: 🇨🇳 台湾 
           type: url-test
           url: http://www.apple.com/library/test/success.html
-          interval: 100
+          interval: 300
         - name: 🇸🇬 新加坡 
           type: url-test
           url: http://www.apple.com/library/test/success.html
-          interval: 100
+          interval: 300
       commands:
         - proxy-groups.🇭🇰 香港.proxies=[]proxyNames|香港 
         - proxy-groups.🇨🇳 台湾.proxies=[]proxyNames|台
         - proxy-groups.🇸🇬 新加坡.proxies=[]proxyNames|新加坡
+      prepend-rules:
+        - DOMAIN-KEYWORD,logitechg,REJECT
+        # - DOMAIN-KEYWORD,weibo,REJECT
+        # - DOMAIN-KEYWORD,v2ex,REJECT
+        # - DOMAIN-KEYWORD,cc98,REJECT
+        # - DOMAIN-KEYWORD,rangluw,REJECT
+        - DOMAIN-KEYWORD,analytics,REJECT
+        - DOMAIN-KEYWORD,adservice,REJECT
+        # - DOMAIN-KEYWORD,youtube,REJECT
+        # - DOMAIN-KEYWORD,googlevideo,REJECT
+        # - DOMAIN-SUFFIX,ytimg.com,REJECT
+        # - DOMAIN-SUFFIX,t.me,REJECT
+        # - DOMAIN-SUFFIX,tdesktop.com,REJECT
+        # - DOMAIN-SUFFIX,telegra.ph,REJECT
+        # - DOMAIN-SUFFIX,telegram.me,REJECT
+        # - DOMAIN-SUFFIX,telegram.org,REJECT
+        # - DOMAIN-SUFFIX,telesco.pe,REJECT
+        # - IP-CIDR,91.108.0.0/16,REJECT
+        # - IP-CIDR,109.239.140.0/24,REJECT
+        # - IP-CIDR,149.154.160.0/20,REJECT
+        # - IP-CIDR6,2001:67c:4e8::/48,REJECT
+        # - IP-CIDR6,2001:b28:f23d::/48,REJECT
+        # - IP-CIDR6,2001:b28:f23f::/48,REJECT
+
+        - RULE-SET,BanAD,REJECT
+        - RULE-SET,BanProgramAD,REJECT
+        - RULE-SET,reject,REJECT
+
+        - RULE-SET,zju,🏫 ZJUWLAN
+        - RULE-SET,proxylist,💥 Proxy Network
+        
+        - RULE-SET,directlist,DIRECT
+        - RULE-SET,Microsoft,DIRECT
+        - RULE-SET,cncidr,DIRECT
+        - RULE-SET,direct,DIRECT
+
+        - RULE-SET,ProxyLite,💥 Proxy Network
+        - RULE-SET,ProxyGFWlist,💥 Proxy Network
+        - GEOIP,CN,DIRECT
+        - MATCH,💥 Proxy Network
       mix-rule-providers: 
         directlist: 
           type: http
