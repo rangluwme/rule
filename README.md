@@ -64,7 +64,17 @@ parsers: # array
         - RULE-SET,ProxyGFWlist,💥 Proxy Network
         - GEOIP,CN,DIRECT
         - MATCH,💥 Proxy Network
+      append-proxies:
+        - name: ZJU
+          type: socks5
+          server: 127.0.0.1
+          port: 1080
       prepend-proxy-groups:
+        - name: 🏫 ZJUWLAN
+          type: select
+          proxies:
+          - DIRECT
+          - ZJU
         - name: 💥 Proxy Network
           type: select
           proxies:
