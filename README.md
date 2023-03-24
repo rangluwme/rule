@@ -1,18 +1,9 @@
-- https://invite.efshop.cc/#/register?code=vHGeVVP1
-- https://github.com/Mythologyli/ZJU-Rule/tree/master/Clash/Providers
-- https://github.abskoop.workers.dev/https://github.com/rangluwme/rule/releases/download/1.0/Clash.7z
+- [Parser](#parser)
+- [Parser_ZJU](#parser_zju)
+- [Mixin](#mixin)
 
----
-- http://www.msftconnecttest.com/connecttest.txt
-- http://captive.apple.com/
-- http://www.apple.com/library/test/success.html
-- https://www.google.com/search?q=%s&lr=lang_zh-CN
-- https://www.google.com/search?q=%s&hl=zh_CN
 
-- https://www.google.com/?hl=zh_CN
-- https://www.google.com/?lr=lang_zh-CN
-
-# Parser_ZJU
+# Parser
 ```
 parsers: # array
   - reg: ^.*$  
@@ -133,7 +124,7 @@ parsers: # array
           path: ./ACL4SSR/ProxyGFWlist.yaml
 ```
 
-# Parser
+# Parser_ZJU
 ```
 parsers: # array
   - reg: ^.*$  
@@ -277,6 +268,7 @@ parsers: # array
           path: ./ACL4SSR/ProxyGFWlist.yaml
 ```
 
+# Mixin
 ```
 mixin:
   tun:
@@ -324,3 +316,17 @@ mixin:
     fake-ip-filter:
       - www.msftconnecttest.com 
 ```
+
+- https://invite.efshop.cc/#/register?code=vHGeVVP1
+- https://github.com/Mythologyli/ZJU-Rule/tree/master/Clash/Providers
+- https://github.abskoop.workers.dev/https://github.com/rangluwme/rule/releases/download/1.0/Clash.7z
+
+---
+- http://www.msftconnecttest.com/connecttest.txt
+- http://captive.apple.com/
+- http://www.apple.com/library/test/success.html
+- https://www.google.com/search?q=%s&lr=lang_zh-CN
+- https://www.google.com/search?q=%s&hl=zh_CN
+
+- https://www.google.com/?hl=zh_CN
+- https://www.google.com/?lr=lang_zh-CN
