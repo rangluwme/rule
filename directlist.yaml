@@ -13,6 +13,37 @@ payload:
  - DOMAIN-SUFFIX,msftidentity.com
  - DOMAIN-SUFFIX,msidentity.com
  - DOMAIN-SUFFIX,microsoftonline.com
+ 
+ - DOMAIN-SUFFIX,zju.edu.cn
+ - DOMAIN-SUFFIX,acm.org
+ - DOMAIN-SUFFIX,cnki.net
+ - DOMAIN-SUFFIX,gtadata.com
+ - DOMAIN-SUFFIX,jstor.org
+ - DOMAIN-SUFFIX,webofscience.com
+ - DOMAIN-SUFFIX,inoteexpress.com
+ - DOMAIN-SUFFIX,pnas.org
+ - DOMAIN-SUFFIX,cas.org
+ - DOMAIN-SUFFIX,webofknowledge.com
+ - DOMAIN-SUFFIX,serialssolutions.com
+ - DOMAIN-SUFFIX,duxiu.com
+ - DOMAIN-SUFFIX,wanfangdata.com.cn
+
+ - DOMAIN-SUFFIX,tandfonline.com
+ - DOMAIN-KEYWORD,journal
+ - DOMAIN-KEYWORD,science
+ - DOMAIN-KEYWORD,springer
+ - DOMAIN-KEYWORD,sciencedirect
+ - DOMAIN-KEYWORD,elsevier
+ - DOMAIN-SUFFIX,iwaponline.com
+ - DOMAIN-SUFFIX,wiley.com
+ - DOMAIN-SUFFIX,ieee.org
+ - DOMAIN-SUFFIX,proquest.com
+ - DOMAIN-SUFFIX,nature.com
+ - DOMAIN-SUFFIX,acs.org
+ - DOMAIN-SUFFIX,taylorfrancis.com
+ - DOMAIN-SUFFIX,osapublishing.org
+ - DOMAIN-SUFFIX,clarivate.com
+ - DOMAIN-SUFFIX,ascelibrary.org
 
 # 本地/局域网地址
  - IP-CIDR,10.0.0.0/8,no-resolve
