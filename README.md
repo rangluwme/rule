@@ -12,8 +12,8 @@ https://home.xsus.me/index.php/#/register?code=RLxsKCoU
 https://invite.efshop.cc/#/register?code=vHGeVVP1
 
 ```
-parsers: # array
-  - reg: ^.*$  
+parsers: # array 
+  - reg: ^.*$
     code: |
       module.exports.parse = (raw, { yaml }) => {
         const rawObj = yaml.parse(raw)
@@ -23,7 +23,6 @@ parsers: # array
       } 
     yaml:
       prepend-rules:
-        - DOMAIN-KEYWORD,logitechg,REJECT
         - DOMAIN-KEYWORD,analytics,REJECT 
         - DOMAIN-KEYWORD,adservice,REJECT
         - DOMAIN-SUFFIX,log-global.aliyuncs.com,REJECT
@@ -34,18 +33,24 @@ parsers: # array
         - RULE-SET,BanEasyPrivacy,REJECT
         - RULE-SET,reject,REJECT
 
-        - RULE-SET,proxylist,💥 Proxy Mode
+        - DOMAIN-KEYWORD,rangluw,DIRECT
+        - DOMAIN-KEYWORD,caixin,DIRECT
+        - DOMAIN-SUFFIX,verifystore.com,DIRECT
+        - DOMAIN-SUFFIX,libsyn.com,DIRECT
+        - DOMAIN-KEYWORD,bing,💜 Proxy Mode
+      
+        - RULE-SET,proxylist,💜 Proxy Mode
         - RULE-SET,Microsoft,DIRECT
         - RULE-SET,direct,DIRECT
         - RULE-SET,cncidr,DIRECT
         - RULE-SET,directlist,DIRECT
-
-        - RULE-SET,ProxyLite,💥 Proxy Mode
-        - RULE-SET,ProxyGFWlist,💥 Proxy Mode
+        
+        - RULE-SET,ProxyLite,💜 Proxy Mode
+        - RULE-SET,ProxyGFWlist,💜 Proxy Mode
         - GEOIP,CN,DIRECT
-        - MATCH,💥 Proxy Mode
+        - MATCH,💜 Proxy Mode
       prepend-proxy-groups:
-        - name: 💥 Proxy Mode
+        - name: 💜 Proxy Mode
           type: select
           # type: url-test
           # url: http://www.apple.com/library/test/success.html
@@ -54,7 +59,7 @@ parsers: # array
           - 🇭🇰 香港
           - 🇨🇳 台湾
           - 🇸🇬 新加坡
-          - 🌍 Proxy Network 
+          - 🌍 Proxy
         - name: 🇭🇰 香港
           type: url-test
           url: http://www.apple.com/library/test/success.html
@@ -68,7 +73,7 @@ parsers: # array
           type: url-test
           url: http://www.apple.com/library/test/success.html
           interval: 10
-        - name: 🌍 Proxy Network
+        - name: 🌍 Proxy
           type: url-test
           url: http://www.apple.com/library/test/success.html
           interval: 10
@@ -76,18 +81,18 @@ parsers: # array
         - proxy-groups.🇭🇰 香港.proxies=[]proxyNames|港|HK
         - proxy-groups.🇨🇳 台湾.proxies=[]proxyNames|台|TW
         - proxy-groups.🇸🇬 新加坡.proxies=[]proxyNames|新|狮城|SG
-        - proxy-groups.🌍 Proxy Network.proxies=[]proxyNames|日|韩|美|US|KR|JP
+        - proxy-groups.🌍 Proxy.proxies=[]proxyNames|美|US
       mix-rule-providers: 
         directlist: 
           type: http
           behavior: classical
-          url: "https://raw.githubusercontent.com/rangluwme/rule/main/directlist.yaml"
+          url: "https://cdn.jsdelivr.net/gh/rangluwme/rule/directlist.yaml"
           path: ./ruleset/directlist.yaml
           interval: 86400
         proxylist: 
           type: http
           behavior: classical
-          url: "https://raw.githubusercontent.com/rangluwme/rule/main/proxylist.yaml"
+          url: "https://cdn.jsdelivr.net/gh/rangluwme/rule/proxylist.yaml"
           path: ./ruleset/proxylist.yaml
           interval: 86400
         reject: # 广告域名列表
