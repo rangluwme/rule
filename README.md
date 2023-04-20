@@ -33,20 +33,20 @@ parsers: # array
         - DOMAIN-KEYWORD,caixin,DIRECT
         - DOMAIN-SUFFIX,verifystore.com,DIRECT
         - DOMAIN-SUFFIX,libsyn.com,DIRECT
-        - DOMAIN-KEYWORD,bing,💜 Proxy Mode
+        - DOMAIN-KEYWORD,bing,🌍 Proxy Mode
       
-        - RULE-SET,proxylist,💜 Proxy Mode
+        - RULE-SET,proxylist,🌍 Proxy Mode
         - RULE-SET,Microsoft,DIRECT
         - RULE-SET,direct,DIRECT
         - RULE-SET,cncidr,DIRECT
         - RULE-SET,directlist,DIRECT
-        
-        - RULE-SET,ProxyLite,💜 Proxy Mode
-        - RULE-SET,ProxyGFWlist,💜 Proxy Mode
+      
+        - RULE-SET,ProxyLite,🌍 Proxy Mode
+        - RULE-SET,ProxyGFWlist,🌍 Proxy Mode
         - GEOIP,CN,DIRECT
-        - MATCH,💜 Proxy Mode
+        - MATCH,🌍 Proxy Mode
       prepend-proxy-groups:
-        - name: 💜 Proxy Mode
+        - name: 🌍 Proxy Mode
           type: select
           # type: url-test
           # url: http://www.apple.com/library/test/success.html
@@ -55,7 +55,7 @@ parsers: # array
           - 🇭🇰 香港
           - 🇨🇳 台湾
           - 🇸🇬 新加坡
-          - 🌍 Proxy
+          - 🇺🇲 美国
         - name: 🇭🇰 香港
           type: url-test
           url: http://www.apple.com/library/test/success.html
@@ -69,7 +69,7 @@ parsers: # array
           type: url-test
           url: http://www.apple.com/library/test/success.html
           interval: 10
-        - name: 🌍 Proxy
+        - name: 🇺🇲 美国
           type: url-test
           url: http://www.apple.com/library/test/success.html
           interval: 10
@@ -77,7 +77,7 @@ parsers: # array
         - proxy-groups.🇭🇰 香港.proxies=[]proxyNames|港|HK
         - proxy-groups.🇨🇳 台湾.proxies=[]proxyNames|台|TW
         - proxy-groups.🇸🇬 新加坡.proxies=[]proxyNames|新|狮城|SG
-        - proxy-groups.🌍 Proxy.proxies=[]proxyNames|美|US
+        - proxy-groups.🇺🇲 美国.proxies=[]proxyNames|美|US
       mix-rule-providers: 
         directlist: 
           type: http
