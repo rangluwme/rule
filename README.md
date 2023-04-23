@@ -1,5 +1,6 @@
 # rule
 自用
+https://raw.githubusercontent.com/rangluwme/rule/main/directlist.yaml
 
 https://mayi-site.com/#/register?code=qUnubXcR
 
