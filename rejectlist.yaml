@@ -1,1 +1,8 @@
-
+payload:
+  # 本地/局域网地址
+  - DOMAIN-KEYWORD,giocdn
+  - DOMAIN-KEYWORD,sensor
+  - DOMAIN-KEYWORD,analytics 
+  - DOMAIN-KEYWORD,adservice
+  - DOMAIN-SUFFIX,log-global.aliyuncs.com
+  - DOMAIN-KEYWORD,logitechg
