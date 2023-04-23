@@ -18,9 +18,6 @@ payload:
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,fd00::/8,no-resolve
   
-  - DOMAIN-KEYWORD,cc98
-  - DOMAIN-KEYWORD,icloud
-  - DOMAIN-KEYWORD,apple
   - DOMAIN-SUFFIX,cnki.net
   - DOMAIN-SUFFIX,webofscience.com
   - DOMAIN-SUFFIX,pnas.org
@@ -43,11 +40,22 @@ payload:
   - DOMAIN-SUFFIX,ascelibrary.org
   - DOMAIN-KEYWORD,onetrust
   
-  - DOMAIN-KEYWORD,rangluw,DIRECT
-  - DOMAIN-KEYWORD,caixin,DIRECT
-  - DOMAIN-SUFFIX,verifystore.com,DIRECT
-  - DOMAIN-SUFFIX,libsyn.com,DIRECT
-  - DOMAIN-SUFFIX,clash.razord.top,DIRECT
+  - DOMAIN-KEYWORD,rangluw
+  - DOMAIN-KEYWORD,caixin
+  - DOMAIN-KEYWORD,hotmail
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,weixin
+  - DOMAIN-KEYWORD,outlook
+  - DOMAIN-KEYWORD,office
+  - DOMAIN-KEYWORD,cc98
+  - DOMAIN-KEYWORD,ttxixi
+  - DOMAIN-KEYWORD,icloud
+  - DOMAIN-KEYWORD,apple
+  - DOMAIN-KEYWORD,mzstatic
+  - DOMAIN-SUFFIX,me.com
+  - DOMAIN-SUFFIX,verifystore.com
+  - DOMAIN-SUFFIX,libsyn.com
+  - DOMAIN-SUFFIX,clash.razord.top
   
   - DOMAIN-SUFFIX,cn
   - DOMAIN-KEYWORD,-cn
