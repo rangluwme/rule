@@ -28,34 +28,25 @@ parsers: # array
       } 
     yaml:
       prepend-rules:
-        - DOMAIN-KEYWORD,analytics,REJECT 
-        - DOMAIN-KEYWORD,adservice,REJECT
-        - DOMAIN-SUFFIX,log-global.aliyuncs.com,REJECT
         - RULE-SET,BanAD,REJECT
         - RULE-SET,BanProgramAD,REJECT
         - RULE-SET,BanEasyListChina,REJECT
         - RULE-SET,BanEasyList,REJECT
         - RULE-SET,BanEasyPrivacy,REJECT
         - RULE-SET,reject,REJECT
+        - RULE-SET,rejectlist,REJECT
 
-        - DOMAIN-KEYWORD,rangluw,DIRECT
-        - DOMAIN-KEYWORD,caixin,DIRECT
-        - DOMAIN-SUFFIX,verifystore.com,DIRECT
-        - DOMAIN-SUFFIX,libsyn.com,DIRECT
-        - DOMAIN-KEYWORD,bing,🌍 Proxy Mode
-      
-        - RULE-SET,proxylist,🌍 Proxy Mode
+        - RULE-SET,proxylist,🌍
         - RULE-SET,Microsoft,DIRECT
+        - RULE-SET,directlist,DIRECT
         - RULE-SET,direct,DIRECT
         - RULE-SET,cncidr,DIRECT
-        - RULE-SET,directlist,DIRECT
-      
-        - RULE-SET,ProxyLite,🌍 Proxy Mode
-        - RULE-SET,ProxyGFWlist,🌍 Proxy Mode
+        - RULE-SET,ProxyLite,🌍
+        - RULE-SET,ProxyGFWlist,🌍
         - GEOIP,CN,DIRECT
-        - MATCH,🌍 Proxy Mode
+        - MATCH,🌍
       prepend-proxy-groups:
-        - name: 🌍 Proxy Mode
+        - name: 🌍
           type: select
           # type: url-test
           # url: http://www.apple.com/library/test/success.html
@@ -87,17 +78,23 @@ parsers: # array
         - proxy-groups.🇨🇳 台湾.proxies=[]proxyNames|台|TW
         - proxy-groups.🇸🇬 新加坡.proxies=[]proxyNames|新|狮城|SG
         - proxy-groups.🇺🇲 美国.proxies=[]proxyNames|美|US
+        # 一些可能用到的正则过滤节点示例，使分组更细致
+        # []proxyNames|a                         # 包含a
+        # []proxyNames|^(.*)(a|b)+(.*)$          # 包含a或b
+        # []proxyNames|^(?=.*a)(?=.*b).*$        # 包含a和b
+        # []proxyNames|^((?!b).)*a((?!b).)*$     # 包含a且不包含b
+        # []proxyNames|^((?!b|c).)*a((?!b|c).)*$ # 包含a且不包含b或c
       mix-rule-providers: 
         directlist: 
           type: http
           behavior: classical
-          url: "https://cdn.jsdelivr.net/gh/rangluwme/rule/directlist.yaml"
+          url: "https://raw.githubusercontent.com/rangluwme/rule/main/directlist.yaml"
           path: ./ruleset/directlist.yaml
           interval: 86400
         proxylist: 
           type: http
           behavior: classical
-          url: "https://cdn.jsdelivr.net/gh/rangluwme/rule/proxylist.yaml"
+          url: "https://raw.githubusercontent.com/rangluwme/rule/main/proxylist.yaml"
           path: ./ruleset/proxylist.yaml
           interval: 86400
         reject: # 广告域名列表
@@ -105,6 +102,12 @@ parsers: # array
           behavior: domain
           url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
           path: ./ruleset/reject.yaml
+          interval: 86400
+        rejectlist: # 广告域名列表
+          type: http
+          behavior:  classical
+          url: "https://raw.githubusercontent.com/rangluwme/rule/main/rejectlist.yaml"
+          path: ./ruleset/rejectlist.yaml
           interval: 86400
         direct: # 直连域名列表
           type: http
