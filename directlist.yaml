@@ -39,6 +39,7 @@ payload:
   - DOMAIN-SUFFIX,clarivate.com
   - DOMAIN-SUFFIX,ascelibrary.org
   - DOMAIN-KEYWORD,onetrust
+  - DOMAIN-KEYWORD,serialssolution
   
   - DOMAIN-KEYWORD,rangluw
   - DOMAIN-KEYWORD,caixin
