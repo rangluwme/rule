@@ -1,11 +1,6 @@
 payload:
   # 本地/局域网地址
-  - DOMAIN-SUFFIX,ip6-localhost
-  - DOMAIN-SUFFIX,ip6-loopback
-  - DOMAIN-SUFFIX,lan
-  - DOMAIN-SUFFIX,local
-  - DOMAIN-SUFFIX,localhost
-  - IP-CIDR,0.0.0.0/8,no-resolve
+  - IP-CIDR,0.0.0.0/8,no-resoolve
   - IP-CIDR,10.0.0.0/8,no-resolve
   - IP-CIDR,100.64.0.0/10,no-resolve
   - IP-CIDR,127.0.0.0/8,no-resolve
@@ -17,7 +12,9 @@ payload:
   - IP-CIDR6,fc00::/7,no-resolve
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,fd00::/8,no-resolve
-  
+  - DOMAIN-SUFFIX,msftconnecttest.com
+ 
+  # Scholar Website
   - DOMAIN-SUFFIX,cnki.net
   - DOMAIN-SUFFIX,webofscience.com
   - DOMAIN-SUFFIX,pnas.org
@@ -38,10 +35,14 @@ payload:
   - DOMAIN-SUFFIX,taylorfrancis.com
   - DOMAIN-SUFFIX,clarivate.com
   - DOMAIN-SUFFIX,ascelibrary.org
+  - DOMAIN-SUFFIX,jstor.org
   - DOMAIN-KEYWORD,onetrust
   - DOMAIN-KEYWORD,serialssolution
   - DOMAIN-KEYWORD,scopus
+  - DOMAIN-SUFFIX,verifystore.com
+  - DOMAIN-SUFFIX,libsyn.com
   
+  # Domains
   - DOMAIN-KEYWORD,rangluw
   - DOMAIN-KEYWORD,caixin
   - DOMAIN-KEYWORD,hotmail
@@ -55,9 +56,6 @@ payload:
   - DOMAIN-KEYWORD,apple
   - DOMAIN-KEYWORD,mzstatic
   - DOMAIN-SUFFIX,me.com
-  - DOMAIN-SUFFIX,verifystore.com
-  - DOMAIN-SUFFIX,libsyn.com
-  - DOMAIN-SUFFIX,clash.razord.top
-  
+ 
   - DOMAIN-SUFFIX,cn
   - DOMAIN-KEYWORD,-cn
