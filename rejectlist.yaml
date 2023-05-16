@@ -6,6 +6,7 @@ payload:
   - DOMAIN-KEYWORD,adservice
   - DOMAIN-SUFFIX,log-global.aliyuncs.com
   - DOMAIN-KEYWORD,logitechg
-  - DOMAIN-SUFFIX,adobe.com,REJECT
-  - DOMAIN-SUFFIX,error.taobao.com,REJECT
-  - DOMAIN-SUFFIX,err.taobao.com,REJECT
+  - DOMAIN-SUFFIX,adobe.com
+  - DOMAIN-SUFFIX,error.taobao.com
+  - DOMAIN-SUFFIX,err.taobao.com
+  - IP-CIDR,224.0.0.0/8
