@@ -10,3 +10,4 @@ payload:
   - DOMAIN-SUFFIX,error.taobao.com
   - DOMAIN-SUFFIX,err.taobao.com
   - IP-CIDR,224.0.0.0/8
+  - 
