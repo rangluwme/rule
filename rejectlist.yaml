@@ -11,3 +11,4 @@ payload:
   - DOMAIN-SUFFIX,err.taobao.com
   - IP-CIDR,224.0.0.0/8
   - IP-CIDR,240.0.0.0/8
+  - DOMAIN,gdmf.apple.com
