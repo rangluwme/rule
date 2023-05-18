@@ -2,8 +2,6 @@
 # Code
 - [Mythologyli](https://github.com/Mythologyli/ZJU-Rule/tree/master/Clash/Providers)
 - [Referral-2](https://home.xsus.me/index.php/#/register?code=RLxsKCoU)
-
----)
 - [Apple Test](http://www.apple.com/library/test/success.html)
 - https://www.google.com/search?q=%s&lr=lang_zh-CN
 - https://www.google.com/search?q=%s&hl=zh_CN
