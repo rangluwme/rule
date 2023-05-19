@@ -1,6 +1,8 @@
 
 # Code
 - [Mythologyli](https://github.com/Mythologyli/ZJU-Rule/tree/master/Clash/Providers)
+- [Clash](https://github.com/Fndroid/clash_for_windows_pkg/releases/latest)
+
 - [Referral-2](https://home.xsus.me/index.php/#/register?code=RLxsKCoU)
 - [Apple Test](http://www.apple.com/library/test/success.html)
 - https://www.google.com/search?q=%s&lr=lang_zh-CN
