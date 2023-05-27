@@ -16,7 +16,6 @@ payload:
  
   # Scholar Website
   - DOMAIN-SUFFIX,cnki.net
-  - DOMAIN-SUFFIX,webofscience.com
   - DOMAIN-SUFFIX,pnas.org
   - DOMAIN-SUFFIX,webofknowledge.com
   - DOMAIN-SUFFIX,duxiu.com
@@ -41,7 +40,7 @@ payload:
   - DOMAIN-KEYWORD,scopus
   - DOMAIN-SUFFIX,verifystore.com
   - DOMAIN-SUFFIX,libsyn.com
-  
+  - DOMAIN-SUFFIX,acs.org
   # Domains
   - DOMAIN-KEYWORD,rangluw
   - DOMAIN-KEYWORD,caixin
