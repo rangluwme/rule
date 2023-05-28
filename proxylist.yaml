@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,wiktionary.org
   - DOMAIN-SUFFIX,wikimedia.org
   - DOMAIN-KEYWORD,amazon
+  - DOMAIN-KEYWORD,brave
 
 # OneDrive
   - DOMAIN-KEYWORD,1drv
