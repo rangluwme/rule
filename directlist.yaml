@@ -13,6 +13,7 @@ payload:
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,fd00::/8,no-resolve
   - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,sharepointonline.com
   
     # Scholar Website
   - DOMAIN-SUFFIX,cnki.net
@@ -59,6 +60,7 @@ payload:
   - DOMAIN-KEYWORD,mzstatic
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,ms
   - DOMAIN-SUFFIX,cn
   - DOMAIN-KEYWORD,-cn
 
