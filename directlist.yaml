@@ -33,6 +33,7 @@ payload:
   - DOMAIN-SUFFIX,libsyn.com
   - DOMAIN-SUFFIX,acs.org
   - DOMAIN-SUFFIX,engineeringvillage.com
+  - DOMAIN-SUFFIX,mdpi.com
   - DOMAIN-KEYWORD,journal
   - DOMAIN-KEYWORD,science
   - DOMAIN-KEYWORD,nature
