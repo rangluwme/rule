@@ -23,6 +23,7 @@ payload:
   - DOMAIN-KEYWORD,amazon
   - DOMAIN-KEYWORD,brave
   - DOMAIN-KEYWORD,v2ex
+  - DOMAIN-KEYWORD,facebook
 
 # OneDrive
   - DOMAIN-KEYWORD,1drv
