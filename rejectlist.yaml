@@ -632,6 +632,7 @@ payload:
   - DOMAIN-SUFFIX,tajs.qq.com
   - DOMAIN-SUFFIX,tcss.qq.com
   - DOMAIN-SUFFIX,uu.qq.com
+  - DOMAIN-SUFFIX,pingjs.qq.com
 
   # RenRen
   - DOMAIN-SUFFIX,ebp.renren.com
