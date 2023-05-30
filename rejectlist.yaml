@@ -6,10 +6,12 @@ payload:
   - DOMAIN-KEYWORD,adservice
   - DOMAIN-KEYWORD,privacy
   - DOMAIN-KEYWORD,tracking
+  - DOMAIN-KEYWORD,marketing
 
   - DOMAIN-KEYWORD,logitechg
   - DOMAIN-KEYWORD,adobe
   - DOMAIN-SUFFIX,log-global.aliyuncs.com
+  - DOMAIN-SUFFIX,log.aliyuncs.com
   - DOMAIN-SUFFIX,error.taobao.com
   - DOMAIN-SUFFIX,err.taobao.com
   - IP-CIDR,224.0.0.0/8
