@@ -7,6 +7,15 @@ payload:
   - DOMAIN-KEYWORD,privacy
   - DOMAIN-KEYWORD,tracking
   - DOMAIN-KEYWORD,marketing
+  - DOMAIN-KEYWORD,admarvel
+  - DOMAIN-KEYWORD,admaster
+  - DOMAIN-KEYWORD,adsage
+  - DOMAIN-KEYWORD,adsensor
+  - DOMAIN-KEYWORD,adsmogo
+  - DOMAIN-KEYWORD,adsrvmedia
+  - DOMAIN-KEYWORD,adsserving
+  - DOMAIN-KEYWORD,adsystem
+  - DOMAIN-KEYWORD,adwords
 
   - DOMAIN-KEYWORD,logitechg
   - DOMAIN-KEYWORD,adobe
