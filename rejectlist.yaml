@@ -1,5 +1,9 @@
 payload:
   # 本地/局域网地址
+  - IP-CIDR,224.0.0.0/8
+  - IP-CIDR,240.0.0.0/8
+
+  - DOMAIN,gdmf.apple.com
   - DOMAIN-KEYWORD,giocdn
   - DOMAIN-KEYWORD,sensor
   - DOMAIN-KEYWORD,analytics
@@ -16,20 +20,26 @@ payload:
   - DOMAIN-KEYWORD,adsserving
   - DOMAIN-KEYWORD,adsystem
   - DOMAIN-KEYWORD,adwords
-
+  - DOMAIN-KEYWORD,metrics
   - DOMAIN-KEYWORD,logitechg
   - DOMAIN-KEYWORD,adobe
+  - DOMAIN-KEYWORD,solutions
+  - DOMAIN-KEYWORD,target
+  - DOMAIN-KEYWORD,tracking
+
   - DOMAIN-SUFFIX,log-global.aliyuncs.com
   - DOMAIN-SUFFIX,log.aliyuncs.com
   - DOMAIN-SUFFIX,error.taobao.com
   - DOMAIN-SUFFIX,err.taobao.com
-  - IP-CIDR,224.0.0.0/8
-  - IP-CIDR,240.0.0.0/8
-  - DOMAIN,gdmf.apple.com
+  - DOMAIN-SUFFIX,sugar.zhihu.com
   - DOMAIN-SUFFIX,fourier.taobao.com
   - DOMAIN-SUFFIX,retcode.taobao.com
   - DOMAIN-SUFFIX,tns.simba.taobao.com
   - DOMAIN-SUFFIX,mmstat.com
+  - DOMAIN-SUFFIX,tf.360.cn
+  - DOMAIN-SUFFIX,s.360.cn
+  - DOMAIN-SUFFIX,sofire.bdstatic.com
+
 
   - DOMAIN-SUFFIX,a.youdao.com
   - DOMAIN-SUFFIX,adgeo.corp.163.com
@@ -69,22 +79,6 @@ payload:
   - DOMAIN-SUFFIX,ydpushserver.youdao.com
 
 
-  # 360
-  - DOMAIN-SUFFIX,3600.com
-  - DOMAIN-SUFFIX,gamebox.360.cn
-  - DOMAIN-SUFFIX,jiagu.360.cn
-  - DOMAIN-SUFFIX,kuaikan.netmon.360safe.com
-  - DOMAIN-SUFFIX,leak.360.cn
-  - DOMAIN-SUFFIX,lianmeng.360.cn
-  - DOMAIN-SUFFIX,pub.se.360.cn
-  - DOMAIN-SUFFIX,s.so.360.cn
-  - DOMAIN-SUFFIX,shouji.360.cn
-  - DOMAIN-SUFFIX,soft.data.weather.360.cn
-  - DOMAIN-SUFFIX,stat.360safe.com
-  - DOMAIN-SUFFIX,stat.m.360.cn
-  - DOMAIN-SUFFIX,update.360safe.com
-  - DOMAIN-SUFFIX,wan.360.cn
-
   # Alibaba
   - DOMAIN-SUFFIX,acjs.aliyun.com
   - DOMAIN-SUFFIX,adash-c.m.taobao.com
@@ -118,8 +112,6 @@ payload:
   - DOMAIN-SUFFIX,userimg.qunar.com
   - DOMAIN-SUFFIX,yiliao.hupan.com
 
-  # Apple
-  - DOMAIN-SUFFIX,adserver.unityads.unity3d.com
 
   # Baidu
   - DOMAIN-SUFFIX,a.baidu.cn
@@ -318,7 +310,6 @@ payload:
   - DOMAIN-SUFFIX,zz.bdstatic.com
   - DOMAIN-SUFFIX,zzy1.quyaoya.com
 
-
   # Google
   - DOMAIN-SUFFIX,admob.com
   - DOMAIN-SUFFIX,ads.gmodules.com
@@ -379,6 +370,14 @@ payload:
   - DOMAIN-SUFFIX,tcss.qq.com
   - DOMAIN-SUFFIX,uu.qq.com
   - DOMAIN-SUFFIX,pingjs.qq.com
+  - DOMAIN-SUFFIX,beacon.qq.com
+  - DOMAIN-SUFFIX,beaconcdn.qq.com
+  - DOMAIN-SUFFIX,mtrace.qq.com
+  - DOMAIN-SUFFIX,pingjs.qq.com
+  - DOMAIN-SUFFIX,sngmta.qq.com
+  - DOMAIN-SUFFIX,trace.qq.com
+
+
 
   # Sina
   - DOMAIN-SUFFIX,ad.sina.com.cn
