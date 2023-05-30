@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,fourier.taobao.com
   - DOMAIN-SUFFIX,retcode.taobao.com
   - DOMAIN-SUFFIX,tns.simba.taobao.com
+  - DOMAIN-SUFFIX,mmstat.com
 
   - DOMAIN-SUFFIX,a.youdao.com
   - DOMAIN-SUFFIX,adgeo.corp.163.com
