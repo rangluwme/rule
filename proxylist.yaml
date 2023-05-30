@@ -18,6 +18,7 @@ payload:
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-KEYWORD,youtube
+  - DOMAIN-KEYWORD,ytimg
   - DOMAIN-SUFFIX,wiktionary.org
   - DOMAIN-SUFFIX,wikimedia.org
   - DOMAIN-KEYWORD,amazon
