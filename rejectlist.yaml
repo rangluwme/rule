@@ -26,6 +26,7 @@ payload:
   - DOMAIN-KEYWORD,solutions
   - DOMAIN-KEYWORD,target
   - DOMAIN-KEYWORD,tracking
+  - DOMAIN-KEYWORD,communicate
 
   - DOMAIN-SUFFIX,log-global.aliyuncs.com
   - DOMAIN-SUFFIX,log.aliyuncs.com
@@ -39,7 +40,8 @@ payload:
   - DOMAIN-SUFFIX,tf.360.cn
   - DOMAIN-SUFFIX,s.360.cn
   - DOMAIN-SUFFIX,sofire.bdstatic.com
-
+  - DOMAIN-SUFFIX,clarity.ms
+  - DOMAIN-SUFFIX,px.effirst.com
 
   - DOMAIN-SUFFIX,a.youdao.com
   - DOMAIN-SUFFIX,adgeo.corp.163.com
