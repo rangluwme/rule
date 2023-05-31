@@ -20,12 +20,15 @@ payload:
   - DOMAIN-KEYWORD,youtube
   - DOMAIN-KEYWORD,ytimg
   - DOMAIN-KEYWORD,ggpht
-  - DOMAIN-SUFFIX,wiktionary.org
-  - DOMAIN-SUFFIX,wikimedia.org
   - DOMAIN-KEYWORD,amazon
   - DOMAIN-KEYWORD,brave
   - DOMAIN-KEYWORD,v2ex
   - DOMAIN-KEYWORD,facebook
+  - DOMAIN-SUFFIX,wiktionary.org
+  - DOMAIN-SUFFIX,wikimedia.org
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,notion
+
 
 # OneDrive
   - DOMAIN-KEYWORD,1drv
