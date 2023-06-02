@@ -26,6 +26,7 @@ payload:
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-SUFFIX,wiktionary.org
   - DOMAIN-SUFFIX,wikimedia.org
+  - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,notion
 
