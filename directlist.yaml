@@ -53,7 +53,8 @@ payload:
   - DOMAIN-KEYWORD,apple
   - DOMAIN-KEYWORD,mzstatic
   - DOMAIN-SUFFIX,me.com
-
+  - DOMAIN-SUFFIX,fonts.gstatic.com
+  
   # Microsoft
   - DOMAIN-KEYWORD,outlook
   - DOMAIN-KEYWORD,office
