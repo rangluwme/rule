@@ -45,16 +45,17 @@ payload:
     # Domains
   - DOMAIN-KEYWORD,rangluw
   - DOMAIN-KEYWORD,caixin
-  - DOMAIN-KEYWORD,weixin
   - DOMAIN-KEYWORD,cc98
   - DOMAIN-KEYWORD,zju
   - DOMAIN-KEYWORD,ttxixi
   - DOMAIN-KEYWORD,icloud
   - DOMAIN-KEYWORD,apple
   - DOMAIN-KEYWORD,mzstatic
+  - DOMAIN-KEYWORD,baidupcs
+  - DOMAIN-KEYWORD,baidu
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,fonts.gstatic.com
-  
+
   # Microsoft
   - DOMAIN-KEYWORD,outlook
   - DOMAIN-KEYWORD,office
@@ -65,75 +66,27 @@ payload:
   - DOMAIN-SUFFIX,sharepointonline.com
   - DOMAIN-SUFFIX,ms
 
-  - DOMAIN-SUFFIX,xn--fiqs8s
-  - DOMAIN-SUFFIX,xn--55qx5d
-  - DOMAIN-SUFFIX,xn--io0a7i
-
-# 中国国内常见域名关键词直连
+# Alibaba
   - DOMAIN-KEYWORD,alicdn
   - DOMAIN-KEYWORD,alipay
-  - DOMAIN-KEYWORD,baidupcs
-  - DOMAIN-KEYWORD,bilibili
-
-# Alibaba
-  - DOMAIN-SUFFIX,1688.com
+  - DOMAIN-KEYWORD,aliyun
+  - DOMAIN-KEYWORD,alibaba
+  - DOMAIN-KEYWORD,taobao
   - DOMAIN-SUFFIX,aliapp.org
-  - DOMAIN-SUFFIX,alibaba.com
-  - DOMAIN-SUFFIX,alibabacloud.com
-  - DOMAIN-SUFFIX,alibabausercontent.com
-  - DOMAIN-SUFFIX,alicdn.com
-  - DOMAIN-SUFFIX,alicloudccp.com
-  - DOMAIN-SUFFIX,aliexpress.com
-  - DOMAIN-SUFFIX,aliimg.com
-  - DOMAIN-SUFFIX,alikunlun.com
-  - DOMAIN-SUFFIX,alipay.com
-  - DOMAIN-SUFFIX,alipayobjects.com
-  - DOMAIN-SUFFIX,alisoft.com
-  - DOMAIN-SUFFIX,aliyun.com
-  - DOMAIN-SUFFIX,aliyuncdn.com
-  - DOMAIN-SUFFIX,aliyuncs.com
-  - DOMAIN-SUFFIX,aliyundrive.com
   - DOMAIN-SUFFIX,amap.com
   - DOMAIN-SUFFIX,autonavi.com
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,ele.me
-  - DOMAIN-SUFFIX,hichina.com
-  - DOMAIN-SUFFIX,mxhichina.com
-  - DOMAIN-SUFFIX,soku.com
-  - DOMAIN-SUFFIX,taobao.com
-  - DOMAIN-SUFFIX,taobaocdn.com
-  - DOMAIN-SUFFIX,tbcache.com
   - DOMAIN-SUFFIX,tbcdn.com
   - DOMAIN-SUFFIX,tmall.com
-  - DOMAIN-SUFFIX,tmall.hk
-
-# Baidu
-  - DOMAIN-SUFFIX,baidu.com
-  - DOMAIN-SUFFIX,baidubcr.com
-  - DOMAIN-SUFFIX,baidupcs.com
-  - DOMAIN-SUFFIX,baidustatic.com
-  - DOMAIN-SUFFIX,bcebos.com
-  - DOMAIN-SUFFIX,bdimg.com
-  - DOMAIN-SUFFIX,bdstatic.com
-  - DOMAIN-SUFFIX,bdurl.net
-  - DOMAIN-SUFFIX,hao123.com
-  - DOMAIN-SUFFIX,hao123img.com
-  - DOMAIN-SUFFIX,jomodns.com
-  - DOMAIN-SUFFIX,yunjiasu-cdn.net
 
 # Bilibili
+  - DOMAIN-KEYWORD,bili
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,b23.tv
   - DOMAIN-SUFFIX,bigfun.cn
   - DOMAIN-SUFFIX,bigfunapp.cn
-  - DOMAIN-SUFFIX,biliapi.com
-  - DOMAIN-SUFFIX,biliapi.net
-  - DOMAIN-SUFFIX,bilibili.com
-  - DOMAIN-SUFFIX,biligame.com
-  - DOMAIN-SUFFIX,biligame.net
-  - DOMAIN-SUFFIX,bilivideo.com
-  - DOMAIN-SUFFIX,bilivideo.cn
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN-SUFFIX,im9.com
   - DOMAIN-SUFFIX,smtcdns.net
@@ -143,7 +96,6 @@ payload:
   - DOMAIN-SUFFIX,360buyimg.com
   - DOMAIN-SUFFIX,jcloudcs.com
   - DOMAIN-SUFFIX,jd.com
-  - DOMAIN-SUFFIX,jd.hk
   - DOMAIN-SUFFIX,jdcloud.com
   - DOMAIN-SUFFIX,jdpay.com
   - DOMAIN-SUFFIX,paipai.com
@@ -160,30 +112,25 @@ payload:
   - DOMAIN-SUFFIX,youdao.com
 
 # Sina
-  - DOMAIN-SUFFIX,leju.com
-  - DOMAIN-SUFFIX,miaopai.com
   - DOMAIN-KEYWORD,sina
   - DOMAIN-KEYWORD,weibo
+  - DOMAIN-SUFFIX,leju.com
+  - DOMAIN-SUFFIX,miaopai.com
 
 # Tencent
+  - DOMAIN-KEYWORD,weixin
+  - DOMAIN-KEYWORD,wechat
+  - DOMAIN-KEYWORD,tencent
+  - DOMAIN-KEYWORD,qq
   - DOMAIN-SUFFIX,foxmail.com
   - DOMAIN-SUFFIX,gtimg.com
   - DOMAIN-SUFFIX,idqqimg.com
   - DOMAIN-SUFFIX,igamecj.com
   - DOMAIN-SUFFIX,myapp.com
   - DOMAIN-SUFFIX,myqcloud.com
-  - DOMAIN-SUFFIX,qq.com
-  - DOMAIN-SUFFIX,qqmail.com
-  - DOMAIN-SUFFIX,qqurl.com
   - DOMAIN-SUFFIX,smtcdns.com
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,soso.com
-  - DOMAIN-SUFFIX,tencent-cloud.net
-  - DOMAIN-SUFFIX,tencent.com
-  - DOMAIN-SUFFIX,tencentmind.com
-  - DOMAIN-SUFFIX,tenpay.com
-  - DOMAIN-SUFFIX,wechat.com
-  - DOMAIN-SUFFIX,weixin.com
   - DOMAIN-SUFFIX,weiyun.com
 
   - DOMAIN-SUFFIX,zhihu.com
@@ -192,10 +139,13 @@ payload:
   - DOMAIN-SUFFIX,zhuihd.com
   - DOMAIN-SUFFIX,taobao.com
 
+
+  - DOMAIN-SUFFIX,xn--fiqs8s
+  - DOMAIN-SUFFIX,xn--55qx5d
+  - DOMAIN-SUFFIX,xn--io0a7i
   - DOMAIN-SUFFIX,cn
   - DOMAIN-KEYWORD,-cn
 
-  
   - IP-CIDR,183.0.0.0/10
   - IP-CIDR,183.64.0.0/13
   - IP-CIDR,183.78.160.0/21
