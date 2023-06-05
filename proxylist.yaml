@@ -24,6 +24,9 @@ payload:
   - DOMAIN-KEYWORD,brave
   - DOMAIN-KEYWORD,v2ex
   - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,cloudflare
+  - DOMAIN-KEYWORD,azure
+  - DOMAIN-KEYWORD,amazon
   - DOMAIN-SUFFIX,wiktionary.org
   - DOMAIN-SUFFIX,wikimedia.org
   - DOMAIN-SUFFIX,wikipedia.org
