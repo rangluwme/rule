@@ -61,6 +61,7 @@ payload:
   - DOMAIN-KEYWORD,office
   - DOMAIN-KEYWORD,hotmail
   - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-SUFFIX,msftauth.net
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,sharepointonline.com
