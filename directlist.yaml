@@ -124,16 +124,7 @@ payload:
   - DOMAIN-KEYWORD,wechat
   - DOMAIN-KEYWORD,tencent
   - DOMAIN-KEYWORD,qq
-  - DOMAIN-SUFFIX,foxmail.com
-  - DOMAIN-SUFFIX,gtimg.com
-  - DOMAIN-SUFFIX,idqqimg.com
-  - DOMAIN-SUFFIX,igamecj.com
-  - DOMAIN-SUFFIX,myapp.com
-  - DOMAIN-SUFFIX,myqcloud.com
-  - DOMAIN-SUFFIX,smtcdns.com
-  - DOMAIN-SUFFIX,smtcdns.net
-  - DOMAIN-SUFFIX,soso.com
-  - DOMAIN-SUFFIX,weiyun.com
+  - DOMAIN-SUFFIX,qpic.cn
 
 # Zhihu
   - DOMAIN-SUFFIX,zhihu.com
