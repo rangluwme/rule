@@ -31,7 +31,8 @@ payload:
   - DOMAIN-SUFFIX,wikimedia.org
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,yt.be
-  - DOMAIN-SUFFIX,notion
+  - DOMAIN-SUFFIX,gravatar.com
+  - DOMAIN-SUFFIX,notion.so
 
 
 # OneDrive
