@@ -292,7 +292,6 @@ payload:
   - DOMAIN-SUFFIX,www.pxcc.com
   - DOMAIN-SUFFIX,xn--9kr7l.com
   - DOMAIN-SUFFIX,xn--flw351e.com
-  - DOMAIN-SUFFIX,gstatic.com 
   - DOMAIN-SUFFIX,alt1-mtalk.google.com
   - DOMAIN-SUFFIX,alt2-mtalk.google.com
   - DOMAIN-SUFFIX,alt3-mtalk.google.com

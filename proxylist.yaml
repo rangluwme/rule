@@ -33,6 +33,7 @@ payload:
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,gravatar.com
   - DOMAIN-SUFFIX,notion.so
+  - DOMAIN-SUFFIX,gstatic.com
 
 
 # OneDrive
