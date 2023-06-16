@@ -42,10 +42,10 @@ payload:
   - DOMAIN-SUFFIX,sofire.bdstatic.com
   - DOMAIN-SUFFIX,clarity.ms
   - DOMAIN-SUFFIX,px.effirst.com
- - DOMAIN-SUFFIX,static-pcs-sdk-server.alibaba.com
-  - DOMAIN-SUFFIX,pcs-sdk-server.alibaba.com 
-  - DOMAIN-SUFFIX,h-adashx.ut.taobao.com       
-  - DOMAIN-SUFFIX,pcapp-data-collect.youku.com   
+  - DOMAIN-SUFFIX,static-pcs-sdk-server.alibaba.com
+  - DOMAIN-SUFFIX,pcs-sdk-server.alibaba.com
+  - DOMAIN-SUFFIX,h-adashx.ut.taobao.com
+  - DOMAIN-SUFFIX,pcapp-data-collect.youku.com
 
   - DOMAIN-SUFFIX,a.youdao.com
   - DOMAIN-SUFFIX,adgeo.corp.163.com
