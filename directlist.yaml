@@ -53,6 +53,10 @@ payload:
   - DOMAIN-KEYWORD,mzstatic
   - DOMAIN-KEYWORD,baidupcs
   - DOMAIN-KEYWORD,baidu
+  - DOMAIN-KEYWORD,meituan
+  - DOMAIN-KEYWORD,dianping
+  - DOMAIN-KEYWORD,xhscdn
+  - DOMAIN-KEYWORD,xiaohongshu
   - DOMAIN-SUFFIX,me.com
 
 
