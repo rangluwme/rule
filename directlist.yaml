@@ -58,7 +58,7 @@ payload:
   - DOMAIN-KEYWORD,xhscdn
   - DOMAIN-KEYWORD,xiaohongshu
   - DOMAIN-SUFFIX,me.com
-
+  - DOMAIN-SUFFIX,qlogo.cn
 
   # Microsoft
   - DOMAIN-KEYWORD,outlook
