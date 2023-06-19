@@ -70,6 +70,7 @@ payload:
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,sharepointonline.com
   - DOMAIN-SUFFIX,ms
+  - DOMAIN-SUFFIX,storage.live.com
 
 # Alibaba
   - DOMAIN-KEYWORD,alicdn
