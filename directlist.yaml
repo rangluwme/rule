@@ -67,10 +67,12 @@ payload:
   - DOMAIN-KEYWORD,hotmail
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-SUFFIX,msftauth.net
+  - DOMAIN-SUFFIX,msauth.net
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,sharepointonline.com
   - DOMAIN-SUFFIX,ms
   - DOMAIN-SUFFIX,storage.live.com
+  - DOMAIN-SUFFIX,login.live.com
 
 # Alibaba
   - DOMAIN-KEYWORD,alicdn
