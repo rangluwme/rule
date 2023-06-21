@@ -34,8 +34,8 @@ payload:
   - DOMAIN-SUFFIX,gravatar.com
   - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN-KEYWORD,intercomm
-
+  - DOMAIN-KEYWORD,intercom
+  - DOMAIN-SUFFIX,live.net
 
 # OneDrive
   - DOMAIN-KEYWORD,1drv
