@@ -311,6 +311,7 @@ payload:
   - DOMAIN-SUFFIX,safebrowsing-cache.google.com
   - DOMAIN-SUFFIX,settings.crashlytics.com
   - DOMAIN-SUFFIX,toolbarqueries.google.com
+  - DOMAIN-SUFFIX,gstatic.cn
 
   - DOMAIN-SUFFIX,xn--fiqs8s
   - DOMAIN-SUFFIX,xn--55qx5d
