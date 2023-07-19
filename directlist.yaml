@@ -43,7 +43,6 @@ payload:
   - DOMAIN-KEYWORD,scopus
 
     # Domains
-  - DOMAIN-KEYWORD,rangluw
   - DOMAIN-KEYWORD,caixin
   - DOMAIN-KEYWORD,cc98
   - DOMAIN-KEYWORD,zju
