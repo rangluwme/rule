@@ -7,6 +7,7 @@ payload:
   - DOMAIN-KEYWORD,giocdn
   - DOMAIN-KEYWORD,sensor
   - DOMAIN-KEYWORD,analytics
+  - DOMAIN-KEYWORD,analysis
   - DOMAIN-KEYWORD,adservice
   - DOMAIN-KEYWORD,privacy
   - DOMAIN-KEYWORD,tracking
