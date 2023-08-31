@@ -59,6 +59,7 @@ payload:
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,qlogo.cn
   - DOMAIN-SUFFIX,xuexi.cn
+  - DOMAIN-SUFFIX,huxiu.com
 
   # Microsoft
   - DOMAIN-KEYWORD,outlook

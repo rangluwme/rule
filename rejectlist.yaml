@@ -28,6 +28,7 @@ payload:
   - DOMAIN-KEYWORD,target
   - DOMAIN-KEYWORD,tracking
   - DOMAIN-KEYWORD,communicate
+  - DOMAIN-KEYWORD,wetype
 
   - DOMAIN-SUFFIX,log-global.aliyuncs.com
   - DOMAIN-SUFFIX,log.aliyuncs.com
