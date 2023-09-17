@@ -37,6 +37,7 @@ payload:
   - DOMAIN-KEYWORD,intercom
   - DOMAIN-SUFFIX,live.net
   - DOMAIN-SUFFIX,msedge.net
+  - DOMAIN-SUFFIX,uk
 
 # OneDrive
   - DOMAIN-KEYWORD,1drv
