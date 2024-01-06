@@ -17,8 +17,7 @@ hl = 查询界面语言
 | 名字     | 月付 | 地址                                    | 备注                                                         | Text                                                         |
 | -------- | ---- | --------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Wogame   | 5    | https://wogame.org/#/dashboard          | 免流，流量包                                                 |                                                              |
-| 牛逼啊   | 8    | https://xsus.wiki                       | IEPL,流量包                                                  | 在用      http://wz.xsus.link/                               |
-| Efcloud  | 10   | https://efcloud.pages.dev/              | 多地中转隧道跨境出国SLA在线保障，超高带宽接入晚高峰速率保障4k秒开 | https://efcloud.pages.dev/                                   |
+| 牛逼啊   | 8    | https://xsus.wiki                       | IEPL,流量包                                                  | 在用      http://wz.xsus.link/                               |                              
 | Trojan   | 14   | https://www.xflash.pro/                 | 稳定                                                         | 在用，备用流量包                                             |
 | Teacat   | 15   | https://teacat.cloud/#/plan             | IEPL                                                         | 企业内网专线https://teacat2.com                              |
 | Duck     | 18   | https://starlink.to/#/plan              | IEPL                                                         | 专线，金融级别跨境线路，SS加密，https://star.369.cyou/                             |                              
