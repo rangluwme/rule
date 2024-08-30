@@ -12,11 +12,9 @@ lr--搜索内容的语言限定(Language Restrict),限定只搜索某种语言�
 
 hl = 查询界面语言
 
-
-
 | 名字     | 月付 | 地址                                    | 备注                                                         | Text                                                         |
 | -------- | ---- | --------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Wogame   | 5    | https://wogame.org/#/dashboard          | 免流，流量包                                                 |                                                              |
+| Wogame   | 5    | https://wogame.org/#/dashboard          | 免流，流量包                                                 |    https://citruslab.me/dashboard                                                          |
 | 牛逼啊   | 8    | https://xsus.wiki                       | IEPL,流量包                                                  | 在用      http://wz.xsus.link/                               |                              
 | Trojan   | 14   | https://www.xflash.pro/                 | 稳定                                                         | 在用，备用流量包                                             |
 | Teacat   | 15   | https://teacat.cloud/#/plan             | IEPL                                                         | 企业内网专线https://teacat2.com                              |
