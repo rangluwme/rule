@@ -1,9 +1,19 @@
+HOST-SUFFIX,challenges.cloudflare.com
+HOST-SUFFIX,stripe.com
+HOST-SUFFIX,poe.com
+HOST-SUFFIX,openai.com
+HOST-SUFFIX,chatgpt.com
 HOST-SUFFIX,openai.com
 HOST-SUFFIX,ai.com
 HOST-SUFFIX,auth0.com
 HOST-SUFFIX,challenges.cloudflare.com
-HOST-SUFFIX,stripe.com
-HOST-SUFFIX,poe.com
+HOST-SUFFIX,identrust.com
+HOST-SUFFIX,intercom.io
+HOST-SUFFIX,intercomcdn.com
+HOST-SUFFIX,oaistatic.com
+HOST-SUFFIX,oaiusercontent.com
+HOST-SUFFIX,openaiapi-site.azureedge.net
+HOST-SUFFIX,sentry.io
   
 # 国外域名关键字
 HOST-KEYWORD,github
