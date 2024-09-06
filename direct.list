@@ -36,7 +36,7 @@ HOST-KEYWORD,scopus
     # Domains
 HOST-KEYWORD,caixin
 HOST-KEYWORD,cc98
-HOST-KEYWORD,icloud
+HOST-SUFFIX,icloud.com
 HOST-SUFFIX,apple.com
 HOST-KEYWORD,mzstatic
 HOST-KEYWORD,baidupcs
