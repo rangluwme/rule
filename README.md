@@ -14,7 +14,6 @@ hl = 查询界面语言
 
 | 名字     | 月付 | 地址                                    | 备注                                                         | Text                                                         |
 | -------- | ---- | --------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 牛逼啊   | 8    | https://xsus.wiki                       | IEPL,流量包                                                  | 在用      http://wz.xsus.link/             |
 | Trojan   | 14   | https://www.xflash.pro/                 | 稳定                                        | 在用，备用流量包                                             |
 | Teacat   | 13   | https://teacat.cloud/#/plan             | IEPL                                                         | 企业内网专线https://teacat2.com            |
 | 灵魂云 | 13 | https://linghunyun.com | IEPL | https://linghun999.com |
