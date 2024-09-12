@@ -20,6 +20,9 @@ hl = 查询界面语言
 | Starlink     | 18   | https://starlink.to/#/plan              | IEPL                                                         | SLA,SS专线，金融级别跨境线路，SS加密，https://star.369.cyou/                             |
 | FastLink | 20   | https://fastlink.ws | IPLC, 专线, 直连, 高端                                       | 新增 AIA 和 IPLC 专线线路。BGP,IPLC,Anycast全球加速技术   |
 | CatNet   | 25   | https://dash.catnet.uk/#/plan           | 专线, 高端                                                   | BGP, 具有强大SLA保证。 |
+|  |  | https://iplc.vip |  |  |
+
+
 
 
 
