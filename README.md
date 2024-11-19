@@ -23,7 +23,6 @@ hl = 查询界面语言
 |  |  | https://iplc.vip |  |  |
 | | | XSUS | | |
 | | | Efcloud | | |
-| | | Mayiyun | | |
 
 
 
